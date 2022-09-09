@@ -1,4 +1,5 @@
 "use strict";
+import { NPC } from "./npc-class.js";
 
 let sprLength = 128;
 

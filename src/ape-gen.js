@@ -1,4 +1,4 @@
-"use strict";
+import { randElem } from "./helper.js";
 
 // --------------------------
 // - - - - - FIELDS - - - - -
@@ -8,13 +8,8 @@ const preCon = ["b", "f", "g", "h", "j", "k", "m", "p", "r", "t", "w", "y", "z",
 const vowel = ["a", "e", "i", "o", "u"];
 const sufCon = ["h", "l", "m", "n"];
 
-const species = ["chimpanzee", "gorilla", "orangutan", "bonobo"];
+const species = ["chimpanzee", "gorilla", "orangutan", "bonobo", "gibbon"];
 const sex = ["male", "female"];
-
-// Ape Object:
-// name
-// sex
-// species
 
 
 
@@ -23,7 +18,7 @@ const sex = ["male", "female"];
 // -----------------------------
 
 // Generates a random syllable
-function genSyllable() {
+const genSyllable = () => {
     // Declare empty string
     let syllable = "";
 
@@ -40,10 +35,10 @@ function genSyllable() {
 
     // Return generated string
     return syllable;
-}
+};
 
 // Generates a random name
-function genName() {
+const genName = () => {
     // Declare some variables
     let name = "";
     let goodToGo = false;
@@ -66,20 +61,31 @@ function genName() {
     return name;
 };
 
-// Generates a random ape
-function genApe() {
-    const ape = {
-        name: genName(),
-        sex: randElem(sex),
-        species: randElem(species)
-    }
-
-    return ape;
+// Generates a random species
+const genSpecies = () => {
+    return randElem(species);
 };
 
-// Generates an ape and prints it
-function ape(n) {
-    const ape = genApe();
+// Generates a random sex
+const genSex = () => {
+    return randElem(sex);
+};
 
-    console.log(`${ape.name} (${ape.sex} ${ape.species})`);
-}
+// Generates a random ape
+const genApe = () => {
+    return {
+        name: genName(),
+        species: genSpecies(),
+        sex: genSex()
+    };
+};
+
+
+
+// Exports
+export {
+    genName,
+    genSpecies,
+    genSex,
+    genApe
+};

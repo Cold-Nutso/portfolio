@@ -1,4 +1,5 @@
 "use strict";
+import { clamp, PhysicsBody } from "./helper.js";
 
 const npcState = {
     SQUAT: "squat",
@@ -332,3 +333,5 @@ class Hitbox {
         this.offsetTop = dims[3];
     }
 }
+
+export { NPC };

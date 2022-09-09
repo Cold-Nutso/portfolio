@@ -1,3 +1,5 @@
+"use strict";
+
 function clamp(val, min, max) {
     return val > max ? max : val < min ? min : val;
 }
@@ -95,3 +97,11 @@ class PhysicsBody {
     }
 }
 
+export {
+    clamp,
+    randElem,
+    randInt,
+    fitText,
+    Vector2,
+    PhysicsBody
+};
