@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #badbad;
+}
+
+#eisel {
+    margin: 10px auto;
+    width: 800px;
+    height: 700px;
+}
+#eisel #legs {
+    position: absolute;
+
+    width: 800px;
+    height: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 70px;
+}
+
+#left-leg {
+    width: 30px;
+    height: 100%;
+    background: rgb(94, 46, 29);
+
+    transform: skew(-10deg);
+}
+#right-leg {
+    width: 30px;
+    height: 100%;
+    background: rgb(94, 46, 29);
+
+    transform: skew(10deg);
+}
+#middle-leg {
+    width: 30px;
+    height: 80%;
+    background: rgb(94, 46, 29);
+}
+#shelf {
+    position: relative;
+    top: 450px;
+    margin: 0 auto;
+    width: 400px;
+    height: 30px;
+    background: rgb(94, 46, 29);
+}
+canvas{
+    width: 600px;
+    height: 400px;
+    
+    position: relative;
+    left: 100px;
+    top: 20px;
+}

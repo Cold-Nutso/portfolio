@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/sms-logo.ico">
+    <title>Learn About GardenGrave</title>
+
+    <!-- Link stylesheets -->
+    <link rel="stylesheet" href="styles/index-styles.css">
+    <link rel="stylesheet" href="styles/gg-styles.css">
+
+    <!-- Load in webfonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+
+    <script type="module" src="src/gg-main.js"></script>
+</head>
+
+<body id = gardengrave>
+    <div id = ggIntro>
+        <h1>What is GardenGrave?</h1>
+        <p id = ggIntro>Long ago, the lives of nearly every organism on Earth were grinded to a halt through the catastrophic assaults of World War IV. Ever since, life has been steadily recovering from the fallout. Societies are advancing and now we face a world reborn with new species and customs, all built from the few remnants of the past they could find.
+        </p>
+    </div>
+    
+    <ul>
+        <li>
+            <h2>Delta</h2>
+            <div class='entryGroup'>
+                <delta-entry data-id="0"></delta-entry>
+            </div>
+        </li>
+        <li id='compound'>
+            <h2>Umbradial Compound</h2>
+            <div class="entryGroup">
+            <gg-entry data-id="1"></gg-entry>
+            <gg-entry data-id="2"></gg-entry>
+            </div>
+        </li>
+        <li>
+            <h1>Patron Hues</h1>
+            <p>All functions involved in operating reality are divided among six total patron hues. Each hue has a unique domain of responsibilities and range of exploits. Their names are <span style='color:#000000'>umbrage</span>, <span style='color:#2CFF5E'>trifle</span>, <span style='color:#FFFFFF'>eclipse</span>, <span style='color:#8FF4FF'>root</span>, <span style='color:#FDA6FF'>spire</span>, and <span style='color:#FFE41D'>bedlam</span>.</p>
+            <div class='entryGroup'>
+                <gg-entry data-id="3"></gg-entry>
+                <gg-entry data-id="4"></gg-entry>
+                <gg-entry data-id="5"></gg-entry>
+                <gg-entry data-id="6"></gg-entry>
+                <gg-entry data-id="7"></gg-entry>
+                <gg-entry data-id="8"></gg-entry>
+            </div>
+            <h2>Angel</h2>
+            <p>Since <span style='color:#000000'>the Perforation</span>, there have been many documented cases of organisms born with a much stronger connection to any given patron hue. This is generally known as the angel phenomenon. A further subset, classified as the labor angels, is made up of hosts that seem to share a consistently reoccuring power. Only two such lines have been documented.</p>
+        </li>
+
+        <li>
+            <h1>Sentient Species</h1>
+            <p>So far, there are six.</p>
+            <div class='entryGroup'>
+                <gg-entry data-id="9"></gg-entry>
+                <gg-entry data-id="10"></gg-entry>
+                <gg-entry data-id="11"></gg-entry>
+                <gg-entry data-id="12"></gg-entry>
+                <gg-entry data-id="13"></gg-entry>
+                <gg-entry data-id="14"></gg-entry>
+            </div>
+        </li>
+
+        <li>
+            <h1>Map</h1>
+            <p>Right now it's just locations.</p>
+            <div id="map-item">
+            <img id="map" src="images/sketches/gg-map.png" alt="">
+            <div class='entryGroup' style="position:relative; top: -1000px; left: -100px;">
+                <gg-entry data-id="26" style="position:absolute; top:0px; left:550px;"></gg-entry>
+                <gg-entry data-id="23" style="position:absolute; top:0px; left:0px;"></gg-entry>
+                <gg-entry data-id="25" style="position:absolute; top:50px; left:350px;"></gg-entry>
+
+                <gg-entry data-id="24" style="position:absolute; top:200px; left:400px;"></gg-entry>
+                <gg-entry data-id="27" style="position:absolute; top:250px; left:750px;"></gg-entry>
+                <gg-entry data-id="22" style="position:absolute; top:300px; left:250px;"></gg-entry>
+
+                <gg-entry data-id="21" style="position:absolute; top:400px; left:400px;"></gg-entry>
+                <gg-entry data-id="28" style="position:absolute; top:600px; left:500px;"></gg-entry>
+                <gg-entry data-id="29" style="position:absolute; top:850px; left:50px;"></gg-entry>
+            </div>
+            </div>
+        </li>
+
+        <li>
+            <h1>Trio of Appeals</h1>
+            <p>These are the "main" characters of GardenGrave.</p>
+            <div class='entryGroup'>
+                <gg-entry data-id="31"></gg-entry>
+                <gg-entry data-id="32"></gg-entry>
+                <gg-entry data-id="33"></gg-entry>
+                <gg-entry data-id="34"></gg-entry>
+                <gg-entry data-id="35"></gg-entry>
+            </div>
+        </li>
+    </ul>
+
+<!-- The Modal/Lightbox -->
+<div id = showcase>
+    <div class = filter></div>
+
+    <div class = stack>
+        <gg-card></gg-card>
+        <gg-card></gg-card>
+        <gg-card></gg-card>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+.npc { user-select: none; position: fixed; }
+.npc img { width: 100%; height: 100%; }
+
+.hitbox { position: absolute; }

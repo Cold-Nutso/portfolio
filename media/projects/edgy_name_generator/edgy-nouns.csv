@@ -1,0 +1,92 @@
+Animal (aerial),,Bat/Bats,Crow/Crows,Eagle/Eagles,Hawk/Hawks,Owl/Owls,Raptor/Raptors,Raven/Ravens,Vulture/Vultures
+Animal (aquatic),,Barracuda/Barracudas,Eel/Eels,Orca/Orcas,Piranha/Piranhas,Shark/Sharks,Squid/Squids,Thresher/Threshers,Urchin/Urchins
+Animal (bug),,Beetle/Beetles,Centipede/Centipede,Cricket/Crickets,Grub/Grubs,Hornet/Hornets,Insect/Insects,Larva/Larvae,Mantis/Mantids,Scarab/Scarabs,Scorpion/Scorpions,Spider/Spiders,Termite/Termites,Wasp/Wasps,Worm/Worms
+Animal (burrowing),,Badger/Badgers,Echidna/Echidnas,Hedgehog/Hedgehogs,Mole/Moles,Mongoose/Mongooses,Raccoon/Raccoons,Rat/Rats
+Animal (cryptid),,Banshee/Banshees,Cryptid/Cryptids,Ghost/Ghosts,Ghoul/Ghouls,Lich/Liches,Soul/Souls,Spectre/Spectres,Spirit/Spirits,Wisp/Wisps,Zombie/Zombies
+Animal (fantasy),,Beast/Beasts,Behemoth/Behemoths,Creature/Creatures,Dragon/Dragons,Kraken/Krakens,Monster/Monsters,Wyvern/Wyverns
+Animal (predator),,Boar/Boars,Fox/Foxes,Hyena/Hyenas,Panther/Panthers,Tiger/Tigers,Wolf/Wolves
+Animal (reptile),,Crocodile/Crocodiles,Gator/Gators,Python/Pythons,Reptile/Reptiles,Serpent/Serpents,Snake/Snakes,Viper/Vipers
+Attack,,Attack/Attacks,Kick/Kicks,Lash/Lashes,Punch/Punches,Slash/Slashes,Slice/Slices,Stab/Stabs,Strike/Strikes
+Body (bones),,Bone/Bones,Jaw/Jaws,Ribcage/Ribcages,Skeleton/Skeletons,Skull/Skulls,Spine/Spines
+Body (fluids),,Acid/Acid,Bile/Bile,Blood/Blood,Mucus/Mucus,Plasma/Plasma,Saliva/Saliva,Slime/Slime,Spit/Spit,Tear/Tears,Vomit/Vomit
+Body (organs),,Eye/Eyes,Guts/Guts,Heart/Hearts,Intestine/Intestines,Iris/Irises
+Body (utility),,Claw/Claws,Fang/Fangs,Fin/Fins,Fur/Fur,Hand/Hands,Husk/Husks,Pincer/Pincers,Stinger/Stingers,Talon/Talons,Tooth/Teeth,Web/Webs,Wing/Wings
+Body (viscera),,Flesh/Flesh,Meat/Meat,Muscle/Muscles,Tendon/Tendons,Tendril/Tendrils,Viscera/Viscera
+Celestial,,Asteroid/Asteroids,Comet/Comets,Eclipse/Eclipses,Equinox/Equinoxes,Galaxy/Galaxies,Horizon/Horizons,Meteor/Meteors,Moon/Moons,Nova/Novas,Planet/Planets,Star/Stars
+Chaos,,Anarchy/Anarchy,Bedlam/Bedlam,Chaos/Chaos,Disarray/Disarray,Discord/Discord,Disorder/Disorder,Mystery/Mysteries,Pandemonium/Pandemonium,Turmoil/Turmoil
+Crime (law),,Bailiff/Bailiffs,Crime/Crimes,Criminal/Criminals,Deputy/Deputies,Enforcer/Enforcers,Judge/Judges,Lawsuit/Lawsuits,Lawyer/Lawyers,Officer/Officers,Perpetrator/Perpetrators,Police/Police,Sheriff/Sheriffs,Treason/Treason
+Crime (murder),,Genocide/Genocide,Homocide/Homocide,Killer/Killers,Massacre/Massacres,Murder/Murder,Murderer/Murderers,Slaughter/Slaughter,Slaughterer/Slaughterers,Terminator/Terminators
+Crime (prison),,Cage/Cages,Cell/Cells,Chain/Chains,Convict/Convicts,Inmate/Inmates,Jail/Jails,Lock/Locks,Prison/Prisons,Prisoner/Prisoners,Shackle/Shackles,Warden/Wardens
+Crime (theft),,Burglar/Burglars,Burglary/Burglary,Heist/Heists,Piracy/Piracy,Pirate/Pirates,Robbery/Robbery,Stealer/Stealers,Theft/Theft,Thief/Thieves,Thievery/Thievery
+Decay,,Age/Age,Corpse/Corpses,Decay/Decay,Disintegration/Disintegration,Poison/Poison,Rot/Rot,Rust/Rust
+Demise,,Abolition/Abolition,Annihilation/Annihilation,Apocolypse/Apocolypses,Assassination/Assassination,Death/Death,Defeat/Defeat,Demise/Demise,Destruction/Destruction,Elimination/Elimination,Eradication/Eradication,Execution/Execution,Extermination/Extermination,Extinction/Extinction,Obliteration/Obliteration,Oblivion/Oblivion
+Disease,,Blight/Blights,Cancer/Cancer,Dementia/Dementia,Disease/Diseases,Lycanthrope/Lycanthropes,Plague/Plagues,Psycho/Psychos,Scoliosis/Scoliosis,Stroke/Strokes,Tetanus/Tetanus,Tumor/Tumors,Vampire/Vampires
+Element (air),,Cloud/Clouds,Fog/Fog,Gust/Gusts,Mist/Mist,Smog/Smog,Smoke/Smoke,Steam/Steam,Wind/Wind
+Element (dark),,Abyss/Abysses,Darkness/Darkness,Gloom/Gloom,Murk/Murk,Shade/Shade,Shadow/Shadows,Umbra/Umbrage,Void/Voids
+Element (earth),,Boulder/Boulders,Dirt/Dirt,Gravel/Gravel,Mountain/Mountains,Rock/Rocks,Soot/Soot,Stalactite/Stalactites,Stalagmite/Stalagmites,Stone/Stones,Sulfur/Sulfur
+Element (electricity),,Electricity/Electricity,Jolt/Jolts,Lightning/Lightning,Shock/Shocks,Static/Static,Thunder/Thunder,Volt/Voltage
+Element (fire),,Ash/Ashes,Blaze/Blazes,Burn/Burns,Fire/Fire,Flame/Flames,Heat/Heat,Igniter/Igniters,Ignition/Ignition,Inferno/Infernos,Lava/Lava,Magma/Magma,Torch/Torches,Volcano/Volcanoes
+Element (ice),,Avalanche/Avalanches,Blizzard/Blizzards,Glacier/Glaciers,Hail/Hail,Ice/Ice,Icicle/Icicles,Sleet/Sleet,Snow/Snow
+Element (light),,Flash/Flashes,Glimmer/Glimmers,Shimmer/Shimmers,Spark/Sparks,Twilight/Twilight
+Element (water),,Lake/Lakes,Ocean/Oceans,Pond/Ponds,Rain/Rain,Sea/Seas,Storm/Storms,Tsunami/Tsunamis,Wave/Waves
+Evil,,Cruelty/Cruelty,Evil/Evil,Injustice/Injustice,Treachery/Treachery,Villain/Villains
+Feeling (anger),,Agitation/Agitation,Anger/Anger,Angst/Angst,Edge/Edge,Frustration/Frustration,Fury/Fury,Hate/Hate,Hatred/Hatred,Rage/Rage,Revenge/Revenge,Vengeance/Vengeance
+Feeling (fear),,Anxiety/Anxiety,Concern/Concern,Dread/Dread,Fear/Fear,Fright/Fright,Horror/Horror,Nightmare/Nightmares
+Feeling (pain),,Agony/Agony,Guilt/Guilt,Heartbreak/Heartbreak,Pain/Pain,Suffering/Suffering
+Feeling (sorrow),,Cynicism/Cynicism,Depression/Depression,Despair/Despair,Disappointment/Disappointment,Pity/Pity,Regret/Regret,Sadness/Sadness,Sorrow/Sorrow
+Filth,,Debris/Debris,Dust/Dust,Filth/Filth,Grime/Grime,Mess/Messes,Stain/Stains
+Gore,,Bloodshed/Bloodshed,Butcher/Butchers,Carnage/Carnage,Gore/Gore,Liquidator/Liquidators,Mangler/Manglers,Shredder/Shredders,Violence/Violence
+Hunger,,Consumer/Consumers,Devourer/Devourers,Eater/Eaters,Famine/Famine,Hunger/Hunger,Starvation/Starvation,Taster/Tasters
+Hunt,,Hunt/Hunts,Hunter/Hunters,Predator/Predators,Pursuer/Pursuers,Pursuit/Pursuits,Stalker/Stalkers,Tracker/Trackers
+Injury,,Bruise/Bruises,Contusion/Contusions,Fracture/Fractures,Gash/Gashes,Hospital/Hospitals,Injury/Injuries,Laceration/Lacerations,Rash/Rashes,Scar/Scars,Scrape/Scrapes,Scratch/Scratches,Wound/Wounds
+Instrument,,Bell/Bells,Cello/Cellos,Drum/Drums,Harp/Harps,Piano/Pianos,Viola/Violas,Violin/Violins
+Magic,,Cantrip/Cantrips,Curse/Curses,Hex/Hexes,Mage/Mages,Magic/Magic,Spell/Spells,Warlock/Warlocks,Witch/Witches
+Material,,Coal/Coal,Flint/Flint,Leather/Leather,Obsidian/Obsidian,Quartz/Quartz,Salt/Salt
+Material (building),,Brick/Bricks,Cement/Cement,Concrete/Concrete,Pillar/Pillars
+Material (crystal),,Crystal/Crystals,Diamond/Diamonds,Fractal/Fractals,Fragment/Fragments,Gem/Gems,Glass/Glass,Mirror/Mirrors,Onyx/Onyx,Ruby/Rubies,Shard/Shards
+Material (metal),,Iron/Iron,Lead/Lead,Mercury/Mercury,Metal/Metal,Silver/Silver,Steel/Steel
+Mental,,Asylum/Asylums,Hysteria/Hysteria,Lobotomy/Lobotomies,Lunatic/Lunatics,Maniac/Maniacs,Paranoia/Paranoia,Psychopath/Psychopaths,Sociopath/Sociopaths
+Might,,Might/Might,Power/Powers,Strength/Strength
+Misc,,Anime/Anime,Banisher/Banishers,Parkour/Parkour,Vacuum/Vacuums,Vigilance/Vigilance,Vortex/Vortexes
+Misfortune,,Disaster/Disaster,Doom/Doom,Misfortune/Misfortune,Mistake/Mistakes,Obstacle/Obstacles,Risk/Risks
+Neglect,,Abandoner/Abandoners,Avoider/Avoiders,Evader/Evaders,Ignorer/Ignorers,Neglect/Neglect
+Outfit (armor),,Armor/Armor,Bracer/Bracers,Chainmail/Chainmail,Gauntlet/Gauntlets,Scalemail/Scalemail,Spaulder/Spaulders
+Outfit (style),,Boot/Boots,Cape/Capes,Cloak/Cloaks,Coat/Coats,Crown/Crowns,Duster/Dusters,Eyepatch/Eyepatches,Fedora/Fedoras,Glove/Gloves,Hood/Hoods,Jacket/Jackets
+Plant,,Branch/Branches,Cactus/Cacti,Carnation/Carnations,Ivy/Ivies,Lemon/Lemons,Lotus/Lotuses,Onion/Onions,Root/Roots,Rose/Roses,Stem/Stems,Vine/Vines,Willow/Willows
+Psychic,,Gypsy/Gypsies,Mind/Minds,Mystic/Mystics,Oracle/Oracles,Prophet/Prophets,Psychic/Psychics,Seer/Seers,Telekinesis/Telekinesis,Telepathy/Telepathy
+Religion (negative),,Crucifier/Crucifiers,Crucifixion/Crucifixions,Cult/Cults,Cultist/Cultists,Demon/Demons,Devil/Devils,Heathen/Heathens,Hell/Hell,Occult/Occults,Sin/Sins,Sinner/Sinners
+Religion (positive),,Altar/Altars,Angel/Angels,Cardinal/Cardinals,Cathedral/Cathedrals,Church/Churches,Cross/Crosses,Deity/Deities,Divinity/Divinity,God/Gods,Goddess/Goddesses,Paladin/Paladins,Pope/Popes,Priest/Priests,Shrine/Shrines,Worship/Worship,Worshipper/Worshippers
+Science,,Catalyst/Catalysts,Discoverer/Discoverers,Doctor/Doctors,Experimentor/Experimentors,Explorer/Explorers,Inventor/Inventors,Pioneer/Pioneers
+Setting (building),,Castle/Castles,Fort/Forts,Funeral/Funerals,Tower/Towers
+Setting (crypt),,Cave/Caves,Cavern/Caverns,Chamber/Chambers,Crypt/Crypts,Dungeon/Dungeons,Labyrinth/Labyrinths,Vault/Vaults
+Setting (grave),,Catacomb/Catacombs,Grave/Graves,Graveyard/Graveyards,Mausoleum/Mausoleums,Mourner/Mourners,Tomb/Tombs
+Setting (land),,Bog/Bogs,Cliff/Cliffs,Desert/Deserts,Hive/Hives,Swamp/Swamps
+Society (deceit),,Deceit/Deceit,Deception/Deception,Espionage/Espionage,Fraud/Fraud,Hoax/Hoaxes,Lie/Lies,Manipulation/Manipulation,Scam/Scams,Scheme/Schemes,Secret/Secrets,Spy/Spies,Trickery/Trickery
+Society (group),,Crew/Crews,Crowd/Crowds,Gang/Gangs,Government/Government,Hoard/Hoards,Society/Society,Squad/Squads,Swarm/Swarms,Troop/Troops
+Society (outcast),,Anti-hero/Anti-heroes,Brute/Brutes,Delinquent/Delinquents,Freak/Freaks,Gamer/Gamers,Goth/Goths,Hacker/Hackers,Outcast/Outcasts,Savage/Savages,Scavenger/Scavengers
+Society (service),,Oppression/Oppression,Servant/Servants,Slave/Slaves,Slavery/Slavery,Thrall/Thralls,Thralldom/Thralldom
+Sound,,Crier/Criers,Howl/Howls,Howler/Howlers,Scream/Screams,Screamer/Screamers,Screech/Screeches,Screecher/Screechers,Shouter/Shouters
+Story,,Backstory/Backstories,Destiny/Destinies,Fate/Fates,Legend/Legends
+Time,,Dawn/Dawn,Dusk/Dusk,Future/Futures,History/History,Midnight/Midnight,Night/Nights,Past/Pasts,Sunset/Sunsets,Time/Time
+Title (companion),,Acquaintance/Acquaintances,Advocate/Advocates,Avenger/Avengers,Companion/Companions,Defender/Defenders,Embracer/Embracers,Savior/Saviors,Sympathizer/Sympathizers
+Title (family),,Adopter/Adopters,Child/Children,Daughter/Daughters,Father/Fathers,Heir/Heirs,Mother/Mothers,Offspring/Offspring,Parent/Parents,Sibling/Siblings,Son/Sons,Spawn/Spawns
+Title (leadership),,Baron/Barons,Baroness/Baronesses,Chieftain/Chieftains,Duke/Dukes,Emperor/Emperors,Empress/Empresses,King/Kings,Lord/Lords,Mistress/Mistresses,Noble/Nobles,President/Presidents,Prince/Princes,Princess/Princesses,Queen/Queens,Tsar/Tsars,Tyrant/Tyrants
+Title (profession),,Alchemist/Alchemists,Character/Characters,Clown/Clowns,Dentist/Dentists,Golem/Golems,Guardian/Guardians,Jester/Jesters,Martyr/Martyrs,Necromancer/Necromancers,Outlaw/Outlaws,Pimp/Pimps,Puppet/Puppets,Rogue/Rogues,Shaman/Shamans
+Title (representative),,Agent/Agents,Ambassador/Ambassadors,Delegate/Delegates,Diplomat/Diplomats,Emissary/Emissaries,Envoy/Envoys,Symbol/Symbols,Vessel/Vessels
+Title (study),,Acolyte/Acolytes,Apprentice/Apprentices,Expert/Experts,Genius/Geniuses,Master/Masters,Mentor/Mentors,Professor/Professors,Scholar/Scholars
+Title (war),,Barbarian/Barbarians,Captain/Captains,Chief/Chiefs,Commander/Commanders,Corporal/Corporals,Crusader/Crusaders,General/Generals,Knight/Knights,Ninja/Ninjas,Samurai/Samurai,Sniper/Snipers,Soldier/Soldiers,Warchief/Warchiefs,Warrior/Warriors
+Torture,,Interrogation/Interrogation,Interrogator/Interrogators,Torment/Torment,Tormentor/Tormentors,Torture/Torture,Torturer/Torturers
+Treasure,,Chalace/Chalaces,Loot/Loot,Plunder/Plunder,Throne/Thrones,Treasure/Treasures
+Verb (assault),,Abuser/Abusers,Assaulter/Assaulters,Attacker/Attackers,Breaker/Breakers,Challenger/Challengers,Fighter/Fighters,Flayer/Flayers,Kicker/Kickers,Puncher/Punchers,Shanker/Shankers,Shatterer/Shatterers,Stabber/Stabbers,Wrecker/Wreckers
+Verb (betrayal),,Betrayer/Betrayers,Cheater/Cheaters,Deceiver/Deceivers,Denier/Deniers,Manipulator/Manipulators,Misguider/Misguiders,Persuader/Persuaders,Plotter/Plotters,Taunter/Taunters,Tempter/Tempters,Temptress/Temptresses,Trickster/Tricksters,Usurper/Usurpers
+Verb (creation),,Architect/Architects,Constructor/Constructors,Controller/Controllers,Cultivator/Cultivators,Forger/Forgers,Handler/Handlers,Pilot/Pilots,Raiser/Raisers,Sculptor/Sculptors,Tamer/Tamers,Weaver/Weavers
+Verb (murder),,Abolisher/Abolishers,Assassin/Assassins,Doomer/Doomers,Eliminator/Eliminators,Eviscerator/Eviscerators,Executioner/Executioners,Exterminator/Exterminators,Finisher/Finishers,Obliterator/Obliterators,Poacher/Poachers,Reaper/Reapers,Slayer/Slayers,Vanquisher/Vanquishers
+Verb (positive),,Avatar/Avatars,Collector/Collectors,Construct/Constructs,Dreamer/Dreamers,Effigy/Effigies,Hallower/Hallowers,Imaginer/Imaginers,Merchant/Merchants,Recruiter/Recruiters,Releaser/Releasers,Ruler/Rulers,Seeker/Seekers
+Verb (summon),,Bearer/Bearers,Beckoner/Beckoners,Beholder/Beholders,Beseecher/Beseechers,Bringer/Bringers,Caster/Casters,Summoner/Summoners
+War,,Battle/Battles,Fight/Fights,Siege/Sieges,Skirmish/Skirmishes,War/Wars
+Weapon (bludgeon),,Bludgeon/Bludgeons,Club/Clubs,Fist/Fists,Hammer/Hammers,Knuckle/Knuckles,Mace/Maces
+Weapon (explosive),,Bomb/Bombs,Eruption/Eruptions,Explosion/Explosions,Grenade/Grenades,Missile/Missiles,Nuke/Nukes,Rocket/Rockets,Torpedo/Torpedos
+Weapon (piercing),,Dagger/Daggers,Glaive/Glaives,Halberd/Halberds,Katar/Katars,Nail/Nails,Needle/Needles,Polearm/Polearms,Rapier/Rapiers,Shank/Shanks,Spear/Spears
+Weapon (projectile),,Arrow/Arrows,Bolt/Bolts,Bullet/Bullets,Kunai/Kunai,Shrapnel/Shrapnel,Shuriken/Shurikens
+Weapon (ranged),,Bow/Bows,Cannon/Cannons,Crossbow/Crossbows,Gun/Guns,Pistol/Pistols,Revolver/Revolvers,Rifle/Rifles,Shotgun/Shotguns,Whip/Whips
+Weapon (slashing),,Axe/Axes,Blade/Blades,Cleaver/Cleavers,Guillotine/Guillotines,Katana/Katanas,Khopesh/Khopeshes,Knife/Knives,Machete/Machetes,Razor/Razors,Sabre/Sabres,Scythe/Scythes,Sickle/Sickles,Sword/Swords,Weapon/Weapons
