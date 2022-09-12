@@ -75,15 +75,13 @@ function makeProject(elem, data) {
         css.rel = "stylesheet";
         css.href = data.css;
         elem.shadowRoot.appendChild(css);
-
-//document.getElementsByTagName( "head" )[0].appendChild( link );
     }
 
     // Add a script if necessary
     if (data.script) {
         let script = document.createElement('script');
-        script.src = data.script;
         script.type = "module";
+        script.src = data.script;
         document.head.appendChild(script);
     }
 }

@@ -79,7 +79,6 @@ body {
     text-align: justify;
     color: #BBBBBB;
 
-    width: 60vw;
     margin: 0 auto;
 
     display: grid;
@@ -220,21 +219,21 @@ h3 { font-size: 3vw; }
 /* - - - MOBILE CHANGES - - - */
 
 @media only screen and (max-width: 800px) {
-    #galleries { row-gap: 4vw; }
+    #galleries { row-gap: 25px; }
     .artbar {
         margin: 0 auto;
-        width: 100%;
-        height: 30vw;
+        width: 500px;
+        height: 150px;
 
         display: flex;
         justify-content: center;
     }
-    .artbar .left { padding-left: 2vw; }
-    .artbar .right { padding-right: 2vw; }
+    .artbar .left { padding-left: 25px; }
+    .artbar .right { padding-right: 25px; }
     .artbar .text { justify-content: center; }
-    .artbar .text h3 { margin: -1% 0 2vw 0; font-size: 8vw; }
+    .artbar .text h3 { margin: -1% 0 2vw 0; font-size: 36pt; }
     .artbar .text p { display: none; }
-    .artbar .text a { font-size: 3vw; }
+    .artbar .text a { font-size: 12pt; }
   }
 
 /* Custom hyperlink colors */

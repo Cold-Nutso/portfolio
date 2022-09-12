@@ -3,7 +3,12 @@
 // - - - - - - G E N E R A L - - - - - -
 // -------------------------------------
 */
-.project { transition: transform .2s ease; }
+
+.project {
+  width: 700px;
+  margin: 0 auto;
+  transition: transform .2s ease;
+}
 
 .banner {
     background: var(--stripe-pattern);
@@ -11,9 +16,9 @@
     justify-content: space-between;
 
     /* Padding isn't included in width & height */
-    padding: 2vw 4vw;
-    height: 7vw;
-    border-radius: 7vw;
+    padding: 25px 50px;
+    height: 80px;
+    border-radius: 80px;
 
     /* Prevent highlighting */
     user-select: none;
@@ -23,24 +28,23 @@
     position: relative;
     z-index: 1;
 }
-.name { margin-bottom: .75vw; font-size: 4vw; }
-.subtitle { margin: 0; text-align: center; font-size: 1.2vw; }
-.icon1, .icon2 { height: 100%; filter: drop-shadow(0px .6vw .3vw rgba(0, 0, 0, 0.6)); }
+.name { margin-bottom: 10px; font-size: 36pt; }
+.subtitle { margin: 0; text-align: center; font-size: 12pt; }
+.icon1, .icon2 { height: 100%; filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.6)); }
 
 .dropdown { width: 80%; margin: 0 auto; }
 .info { 
     display: none;
-    padding: 30px;  
-    font-size: 13pt; 
-    line-height: 17pt;
+    padding: 25px;  
+    font-size: 12pt; 
+    line-height: 16pt;
 }
-.info p { margin: 0; text-indent: 30px; font-size: 1.17vw; line-height: 1.55vw; }
-.info a { font-size: 1.17vw; }
+.info p { margin: 0; text-indent: 30px; }
 .tab { 
     background-color: #BBBBBB; 
-    height: 2vw;
-    border-bottom-left-radius: 1vw;
-    border-bottom-right-radius: 1vw;
+    height: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     cursor: pointer;
 
     /* Prevent highlighting */
@@ -53,26 +57,29 @@
 
   width: 0; 
   height: 0; 
-  border-left: 1vw solid transparent;
-  border-right: 1vw solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
 
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
-.arrow-up { border-bottom: 1vw solid #444; }
-.arrow-down { border-top: 1vw solid #444; }
+.arrow-up { border-bottom: 10px solid #444; }
+.arrow-down { border-top: 10px solid #444; }
 
 
 @media only screen and (max-width: 800px) {
+  .project {
+    width: 500px;
+  }
   .banner { 
       display: block;
-      padding: 5vw 0;
+      padding: 30px 0;
       height: auto;
-      border-radius: 20vw; /* This is arbitrarily big just so it's circular */
+      border-radius: 100px; /* This is arbitrarily big just so it's circular */
   }
-  .name { font-size: 10vw; text-align: center; }
+  .name { font-size: 35pt; text-align: center; }
   .subtitle { display: none; }
   .icon1, .icon2 { display: none; }
 }

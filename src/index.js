@@ -43,7 +43,7 @@ let filters = [
     "invert(89%) sepia(31%) saturate(1734%) hue-rotate(63deg)  brightness(113%) contrast(103%)", // 0.0 accuracy loss
     "invert(87%) sepia(19%) saturate(1143%) hue-rotate(155deg) brightness(102%) contrast(101%)", // 0.0 accuracy loss
     "invert(83%) sepia(93%) saturate(7452%) hue-rotate(254deg) brightness(102%) contrast(103%)", // 2.4 accuracy loss
-    "invert(99%) sepia(49%) saturate(6062%) hue-rotate(334deg) brightness(101%) contrast(103%)"  // 0.1 accuracy loss
+    "invert(85%) sepia(47%) saturate(741%) hue-rotate(354deg) brightness(101%) contrast(103%);"  // 0.0 accuracy loss
 ]
 // Trim index determines which color will be used for trimming
 let trimIndex = Math.floor(Math.random() * colors.length);;

@@ -7,75 +7,90 @@
 #edgy-name { 
   text-indent: 0;
   white-space: nowrap;
-  margin: 2vw 0;
+  margin: 30px;
   font-family: "Anime Inept";
-  font-size: 4vw;
+  font-size: 40pt;
   color: var(--trim-color);
 }
 #edgy-title { 
   text-indent: 0;
   white-space: nowrap;
-  margin: 0 0 2vw 0;
+  margin: 0 0 30px 0;
   font-family: "Anime Inept";
-  font-size: 1.8vw;
+  font-size: 20pt;
   color: var(--trim-color);
   filter: brightness(.8);
 }
 
 #edgy-controls {
-  margin: 0 0 4vw 0;
+  margin: 0 0 30px 0;
 }
 #edgy-controls .lvl-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: .8vw;
+
   width: 100%;
+  gap: 10px;
 }
 #edgy-controls .lvl-2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   width: 50%;
-  gap: .8vw;
-  padding: .8vw;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 20px;
+
   background-color: #444444;
-  border-radius: .8vw;
 }
 #edgy-controls .lvl-3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   width: 100%;
-  gap: .8vw;
+  gap: 10px;
 }
 #edgy-controls .lvl-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   width: 100%;
-  gap: .8vw;
-  padding: .8vw;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 20px;
+
   background: var(--stripe-pattern);
-  border-radius: .8vw;
 }
 #edgy-controls p {
+  margin: 0;
   text-indent: 0;
   text-align: center;
-  margin: 0;
+
   font-family: "Anime Inept";
-  font-size: 1.6vw;
+  font-size: 15pt;
 }
 #edgy-controls button {
-  height: 4vw;
   width: 100%;
-  border-radius: .8vw;
+  border-radius: 20px;
   border-style: none;
+
   color: #444444;
   background-color: #BBBBBB;
   font-family: "Francois One";
-  font-size: .9vw;
+}
+#edgy-controls #edgy-random-btn {
+  height: 60px;
+  margin-bottom: 10px;
+  font-size: 15pt;
+}
+#edgy-controls .lvl-3 button,
+#edgy-controls .lvl-4 button {
+  height: 40px;
 }
 #edgy-controls button:hover {
   background-color: #DDDDDD;
@@ -83,6 +98,7 @@
 }
 #edgy-controls button:active { 
   background-color: #FFFFFF;
+  color: #BBBBBB;
 }
 #edgy-controls button:disabled { 
   filter: brightness(.6);
@@ -91,31 +107,19 @@
 #edgy-controls button:disabled:hover { 
   background-color: #BBBBBB;
 }
-#edgy-controls #edgy-random-btn {
-  width: 100%;
-  margin-bottom: .8vw;
-  font-size: 1.6vw;
-}
-#edgy-controls .lvl-3 button,
-#edgy-controls .lvl-4 button {
-  height: 2vw;
-}
 
-#edgy-img-1 { width: 60%; }
-#edgy-img-2 { 
-  float: right;
-  margin-left: 1.5vw;
-  width: 45%; 
-}
+#edgy-img-1 { width: 70%; }
+#edgy-img-2 { width: 50%; }
 
 @media only screen and (max-width: 800px) {
   #edgy-name {
-    margin: 0;
-    font-size: 6vw;
+    margin: 10px 0 0 0;
+    font-size: 30pt;
   }
   #edgy-title {
-    font-size: 3.5vw;
-    margin: 3vw 0;
+    margin: 30px 0 20px 0;
+    font-size: 15pt;
+
   }
 
   #edgy-controls {
@@ -125,8 +129,8 @@
     display: none;
   }
   #edgy-controls #edgy-random-btn {
-    height: 10vw;
-    font-size: 5vw;
+    height: 70px;
+    font-size: 25pt;
     margin: 0;
   }
 
