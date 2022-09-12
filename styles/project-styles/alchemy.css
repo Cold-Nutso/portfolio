@@ -1,0 +1,23 @@
+/*
+// ---------------------------------
+// - - - - - 8-BIT ALCHEMY - - - - -
+// ---------------------------------
+*/
+
+@media only screen and (min-width: 800px) { 
+  .banner h3 { 
+    font-family: '8-bit Alchemy'; 
+    font-size: 3.75vw; 
+    margin-top: -1.5%; 
+  } 
+}
+.info .alchemy { 
+  font-family: '8-bit Alchemy'; 
+  font-size: 2vw;
+  line-height: 2.2vw;
+  color: var(--trim-color);
+  word-break: break-all;
+}
+.info .alchemy:focus {
+  outline: 0px solid transparent;
+}

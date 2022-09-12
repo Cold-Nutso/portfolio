@@ -51,7 +51,7 @@ document.addEventListener(
 
 function init() {
   entryComps = document.querySelectorAll("gg-entry, delta-entry");
-  loadJson();
+  loadJSON();
 
   // Open the showcase when icon art is clicked
   for (let i = 0; i < entryComps.length; i++)
@@ -152,7 +152,7 @@ function settleCards(cTop, cMid, cBot) {
   cBot.card.style.filter = "brightness(60%)";
 }
 
-function loadJson() {
+function loadJSON() {
   const fetchPromise = async () => {
     // Await ("stay on this line") until the first promise is resolved, meaning the data has downloaded
     let response = await fetch('data/gg-entries.json');

@@ -1,5 +1,6 @@
 "use strict";
 import { genApe } from "./ape-gen.js";
+import { travelTo } from "./helper.js";
 
 
 
@@ -45,7 +46,7 @@ let filters = [
     "invert(99%) sepia(49%) saturate(6062%) hue-rotate(334deg) brightness(101%) contrast(103%)"  // 0.1 accuracy loss
 ]
 // Trim index determines which color will be used for trimming
-let trimIndex = 0;
+let trimIndex = Math.floor(Math.random() * colors.length);;
 
 // Get some page elements
 let menu = document.querySelector("#menu");
@@ -77,19 +78,11 @@ let trimImgs = document.querySelectorAll(".trimfilter");
 window.onload = (e) => {
     // - - - TRIM COLOR - - -
 
-    // Pick a random trim index
-    let trimIndex = Math.floor(Math.random() * colors.length);
     // Set trim color value
     document.documentElement.style.setProperty('--trim-color', colors[trimIndex]);
     // Filter all trim images
     for (let i = 0; i < trimImgs.length; i++)
-    {
-        // Add a drop shadow if it's a banner image
-        if (trimImgs[i].parentElement.className == "banner")
-            trimImgs[i].style.filter = filters[trimIndex] + " drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.6))";
-        else
-            trimImgs[i].style.filter = filters[trimIndex];
-    }
+        trimImgs[i].style.filter = filters[trimIndex];
 
 
 
@@ -158,8 +151,4 @@ function toggleMenu(visibility) {
         menu.style.boxShadow = "none";
 }
 
-// Travel to a part of the page
-const travelTo = (id) => {
-    window.location = "#" + id;
-    window.scrollTo(window.scrollX, window.scrollY + 200);
-}
+export { trimIndex, filters };

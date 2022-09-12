@@ -38,7 +38,13 @@ function fitText(textElem, text, fontSize) {
           goodEnough = true;                                    // End the loop
         }
     }
-  }
+}
+
+// Travel to a part of the page
+const travelTo = (id) => {
+    window.location = "#" + id;
+    window.scrollTo(window.scrollX, window.scrollY + 200);
+}
 
 class Vector2 {
     vector = [0, 0];
@@ -102,6 +108,7 @@ export {
     randElem,
     randInt,
     fitText,
+    travelTo,
     Vector2,
     PhysicsBody
 };

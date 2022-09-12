@@ -13,7 +13,7 @@ class GGCard extends HTMLElement {
     constructor() {
         super();
 
-        // Attach a shadow DOM tree to this instance - this creates "".shadowroot" for us
+        // Attach a shadow DOM tree to this instance - this creates ".shadowroot" for us
         this.attachShadow({mode: "open"});
 
         // Clone "template" and append it

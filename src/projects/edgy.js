@@ -1,4 +1,7 @@
 "use strict;"
+import { randInt, randElem } from "../helper.js";
+
+
 
 // ---------------------------
 // - - - - - CLASSES - - - - -
@@ -228,8 +231,9 @@ class EdgyTitle {
 
 const adjFams = [];
 const nounFams= [];
-const nameElem = document.querySelector("#edgy-name");
-const titleElem = document.querySelector("#edgy-title");
+const edgyRoot = document.querySelector("#edgy").shadowRoot;
+const nameElem = edgyRoot.querySelector("#edgy-name");
+const titleElem = edgyRoot.querySelector("#edgy-title");
 let edgyName = new EdgyName(new NounPair("Shadow", "Shadows"), new NounPair("Demise"), "PosNoun");
 let edgyTitle = new EdgyTitle(new NounPair("Prince", "Princes"), new NounPair("Darkness"), "NounOfTheNoun");
 
@@ -247,24 +251,24 @@ init();
 // - - - - - EVENT LISTENERS - - - - -
 // -----------------------------------
 
-document.querySelector("#edgy-random-btn").onclick = () => { 
+edgyRoot.querySelector("#edgy-random-btn").onclick = () => { 
     edgyName = genEdgyName();
     edgyTitle = genEdgyTitle();
     updateButtons();
     nameElem.innerHTML = edgyName.full;
     titleElem.innerHTML = edgyTitle.full;
 };
-document.querySelector("#edgy-name-random-btn").onclick = () => { 
+edgyRoot.querySelector("#edgy-name-random-btn").onclick = () => { 
     edgyName = genEdgyName();
     updateButtons();
     nameElem.innerHTML = edgyName.full;
 };
-document.querySelector("#edgy-title-random-btn").onclick = () => { 
+edgyRoot.querySelector("#edgy-title-random-btn").onclick = () => { 
     edgyTitle = genEdgyTitle();
     updateButtons();
     titleElem.innerHTML = edgyTitle.full;
 };
-document.querySelector("#edgy-name-a-random-btn").onclick = () => {
+edgyRoot.querySelector("#edgy-name-a-random-btn").onclick = () => {
     if (edgyName.style == "AdjNoun")
         edgyName.firstWord = randElem(randElem(adjFams).items);
     else
@@ -272,12 +276,12 @@ document.querySelector("#edgy-name-a-random-btn").onclick = () => {
 
     nameElem.innerHTML = edgyName.full;
 };
-document.querySelector("#edgy-name-b-random-btn").onclick = () => { 
+edgyRoot.querySelector("#edgy-name-b-random-btn").onclick = () => { 
     edgyName.secondWord = randElem(randElem(nounFams).items);
 
     nameElem.innerHTML = edgyName.full;
 };
-document.querySelector("#edgy-title-a-random-btn").onclick = () => {
+edgyRoot.querySelector("#edgy-title-a-random-btn").onclick = () => {
     if (edgyTitle.style == "TheAdjNoun")
         edgyTitle.firstWord = randElem(randElem(adjFams).items);
     else
@@ -285,7 +289,7 @@ document.querySelector("#edgy-title-a-random-btn").onclick = () => {
 
     titleElem.innerHTML = edgyTitle.full;
 };
-document.querySelector("#edgy-title-b-random-btn").onclick = () => {
+edgyRoot.querySelector("#edgy-title-b-random-btn").onclick = () => {
     if (edgyTitle.style == "NounOfTheAdj")
         edgyTitle.secondWord = randElem(randElem(adjFams).items);
     else
@@ -294,22 +298,22 @@ document.querySelector("#edgy-title-b-random-btn").onclick = () => {
     titleElem.innerHTML = edgyTitle.full;
 };
 
-document.querySelector("#edgy-name-cycle-btn").onclick = () => {
+edgyRoot.querySelector("#edgy-name-cycle-btn").onclick = () => {
     edgyName.cycleStyle();
     updateButtons();
     nameElem.innerHTML = edgyName.full;
 };
-document.querySelector("#edgy-title-cycle-btn").onclick = () => {
+edgyRoot.querySelector("#edgy-title-cycle-btn").onclick = () => {
     edgyTitle.cycleStyle();
     updateButtons();
     titleElem.innerHTML = edgyTitle.full;
 };
 
-document.querySelector("#edgy-name-swap-btn").onclick = () => {
+edgyRoot.querySelector("#edgy-name-swap-btn").onclick = () => {
     edgyName.swapNouns();
     nameElem.innerHTML = edgyName.full;
 };
-document.querySelector("#edgy-title-swap-btn").onclick = () => {
+edgyRoot.querySelector("#edgy-title-swap-btn").onclick = () => {
     edgyTitle.swapNouns();
     titleElem.innerHTML = edgyTitle.full;
 };
@@ -378,18 +382,18 @@ function loadNouns() {
 
 function updateButtons(){
     if (edgyName.style == "AdjNoun") {
-        document.querySelector("#edgy-name-swap-btn").disabled = true;
-        document.querySelector("#edgy-name-cycle-btn").disabled = true;
+        edgyRoot.querySelector("#edgy-name-swap-btn").disabled = true;
+        edgyRoot.querySelector("#edgy-name-cycle-btn").disabled = true;
     }
     else {
-        document.querySelector("#edgy-name-swap-btn").disabled = false;
-        document.querySelector("#edgy-name-cycle-btn").disabled = false;
+        edgyRoot.querySelector("#edgy-name-swap-btn").disabled = false;
+        edgyRoot.querySelector("#edgy-name-cycle-btn").disabled = false;
     }
 
     if (edgyTitle.style == "TheAdjNoun" || edgyTitle.style == "NounOfTheAdj")
-        document.querySelector("#edgy-title-swap-btn").disabled = true;
+        edgyRoot.querySelector("#edgy-title-swap-btn").disabled = true;
     else
-        document.querySelector("#edgy-title-swap-btn").disabled = false;
+        edgyRoot.querySelector("#edgy-title-swap-btn").disabled = false;
 }
 
 // Make sure vocab is loaded before you use this???
@@ -469,7 +473,7 @@ function genEdgyTitle() {
     let tempNounA;
     let tempNounB;
 
-    roll = randInt(5); // Roll a D5
+    let roll = randInt(5); // Roll a D5
 
     // The title building tree
     switch (roll) {
