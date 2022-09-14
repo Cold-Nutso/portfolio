@@ -7,14 +7,14 @@
 @media only screen and (min-width: 800px) { 
   .banner h3 { 
     font-family: '8-bit Alchemy'; 
-    font-size: 3.75vw; 
+    font-size: 34pt; 
     margin-top: -1.5%; 
   } 
 }
 .info .alchemy { 
   font-family: '8-bit Alchemy'; 
-  font-size: 2vw;
-  line-height: 2.2vw;
+  font-size: 30pt;
+  line-height: 34pt;
   color: var(--trim-color);
   word-break: break-all;
 }

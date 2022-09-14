@@ -64,6 +64,13 @@ html { scroll-behavior: smooth; }
 /* Add a scroll padding to every element */
 * { scroll-margin-top: 100px; }
 
+/* Custom hyperlink colors */
+a:link { color: var(--trim-color); }
+a:visited { color: var(--trim-color); }
+a:focus { color: white; }
+a:hover { color: white; }
+a:active { color: white; }
+
 /* General style rules for the website */
 body {
     background-color: #111111;
@@ -78,14 +85,7 @@ body {
     margin: 0;
     text-align: justify;
     color: #BBBBBB;
-
-    margin: 0 auto;
-
-    display: grid;
 }
-@media only screen and (max-width: 800px) {
-    body { width: 90vw; }
-  }
 
 h1, h2, h3 { 
     color: var(--trim-color);
@@ -94,9 +94,9 @@ h1, h2, h3 {
     font-weight: normal;
     margin: 0;
 }
-h1 { font-size: 8vw; }
-h2 { font-size: 6vw; margin-bottom: 4vw;}
-h3 { font-size: 3vw; }
+h1 { font-size: 108pt; }
+h2 { font-size: 72pt; margin-bottom: 50px;}
+h3 { font-size: 36pt; }
 .trim { color: var(--trim-color); }
 .left { text-align: left; }
 .right { text-align: right; }
@@ -107,89 +107,50 @@ h3 { font-size: 3vw; }
     text-align: center; 
     text-indent: 0px;
 }
-
-
 .delta {
     color: #AF7DFF;
 }
+
 
 
 /* --------------------------------- */
 /* - - - - - ABOUT SECTION - - - - - */
 /* --------------------------------- */
 
-#about { display: grid; row-gap: 3vw; margin-top: 1vw; margin-bottom: 15vw; }
+#about { 
+    display: grid; 
+    row-gap: 50px; 
+    margin-bottom: 200px; }
 #subtitle {
     text-align: center;
-    font-size: 2vw;
-    margin: 0;
-    margin-top: -1vw;
+    font-size: 24pt;
+    margin: -20px 0 0 0;
 }
-
-#stuff {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 10%;
-}
-#intro img {
+#profile {
     display: block;
-    width: 60%;
-    margin: 0 auto 10% auto;
+    width: 200px;
+    margin: 0 auto;
 }
-#intro #age {margin: 0; text-align: center; font-size: 16pt; }
+#age {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center; 
+    font-size: 24pt; 
+}
 
 
-#contact {
-    background-color: #444444;
+
+/* ---------------------------- */
+/* - - - - - PROJECTS - - - - - */
+/* ---------------------------- */
+
+#projects { 
     display: flex;
     flex-direction: column;
-    font-size: 16pt;
+    row-gap: 20px;
+
+    margin-bottom: 200px;
 }
-
-
-#contact {
-    padding: 5%;
-    border-radius: 30px;
-}
-#contact p {
-    margin: 4% 0 12% 0;
-    font-size: 24pt;
-    text-align: center;
-    font-family: 'francois one';
-
-}
-#contact #socials {
-    width: 80%;
-    margin: 0 auto;
-
-    display: grid; 
-    grid-template-columns: 1fr 5fr;
-    column-gap: 5%;
-    row-gap: 25%;
-    align-items: center; /* Vertically centers the text */
-}
-#contact #socials img { width: 100%; }
-#contact #socials p { 
-    text-align: right; 
-    font-size: 13pt;
-    font-family: Arial, sans-serif;
-    margin: 0; 
-}
-#contact #socials a { 
-    color: inherit; 
-    text-decoration: none; 
-}
-
-@media only screen and (max-width: 800px) {
-    #about {display: none; }
-}
-
-
-/* ----------------------------- */
-/* - - - - - GALLERIES - - - - - */
-/* ----------------------------- */
-
-#projects { row-gap: 2vw; margin-bottom: 15vw; }
 
 
 
@@ -199,24 +160,31 @@ h3 { font-size: 3vw; }
 /* ----------------------------- */
 
 #galleries {
-    display: grid; 
-    row-gap: 2vw;
-    margin-bottom: 1vw;
+    display: grid;
+    margin: 0 auto;
+    width: 800px;
+    row-gap: 30px;
+    margin-bottom: 200px;
 }
 .artbar {
     display: grid;
-    column-gap: 1.5vw;
-    grid-template-rows: 9vw;
+    column-gap: 20px;
+    grid-template-rows: 150px;
     grid-template-columns: auto auto;
 }
-.artbar .text { display: flex; flex-direction: column; justify-content: space-between; }
-.artbar .text h3 { margin: -1% 0 0 0; font-size: 3vw; }
-.artbar .text p { margin: 0; font-size: 1.05vw; line-height: 1.3vw; }
-.artbar .text a { font-size: 1.05vw; }
+.artbar .text { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+.artbar .text h3 { margin: -1% 0 0 0; }
+.artbar .text p { 
+    margin: 0;
+    text-indent: 30px;
+    font-size: 12pt; 
+    line-height: 15pt; 
+}
 .artbar img { height: 100%; width: auto; }
-
-
-/* - - - MOBILE CHANGES - - - */
 
 @media only screen and (max-width: 800px) {
     #galleries { row-gap: 25px; }
@@ -236,10 +204,47 @@ h3 { font-size: 3vw; }
     .artbar .text a { font-size: 12pt; }
   }
 
-/* Custom hyperlink colors */
 
-a:link { color: var(--trim-color); }
-a:visited { color: var(--trim-color); }
-a:focus { color: white; }
-a:hover { color: white; }
-a:active { color: white; }
+
+/* --------------------------- */
+/* - - - - - CONTACT - - - - - */
+/* --------------------------- */
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically centers the text */
+    
+    padding: 20px 0;
+    width: 100%;
+
+    background-color: #444444;
+}
+#contact .social {
+    display: flex;
+    justify-content: center;
+
+    width: 25%;
+}
+#contact .social img { width: 30px; }
+#contact .social p { 
+    text-align: left; 
+    font-size: 12pt;
+    margin-left: 10px;
+}
+#contact .social a { 
+    color: inherit; 
+    text-decoration: none; 
+}
+
+@media only screen and (max-width: 800px) {
+    #contact {
+        padding: 30px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #contact .social {
+        justify-content: left;
+        width: 200px;
+    }
+}

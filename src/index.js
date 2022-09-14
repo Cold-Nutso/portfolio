@@ -13,7 +13,6 @@ let subtitles = [
     "Stick to the rules, <span class = trim>butterboy</span>.",
     "Stick Figure Badminton 3 enthusiast",
     "Connect Four god",
-    "I might call you a bingus",
     "Ex-Camp Counselor",
     "Extremely cool individual",
     "Huge fan of apes",

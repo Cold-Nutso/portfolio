@@ -130,6 +130,7 @@ class NPC {
         }
     }
 
+    // Synthesized Intelligence
     SI(spf, targetX, targetY) {
         if (this.x > targetX)
         {
