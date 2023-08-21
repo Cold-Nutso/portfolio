@@ -31,7 +31,7 @@
 
 /* Custom properties */
 :root {
-    --trim-color: #EEEEEE;
+    --hex-trim: #bbb;
 
     /* This is how you do repeating lines apparently */
     --stripe-pattern: repeating-linear-gradient(
@@ -65,8 +65,8 @@ html { scroll-behavior: smooth; }
 * { scroll-margin-top: 100px; }
 
 /* Custom hyperlink colors */
-a:link { color: var(--trim-color); }
-a:visited { color: var(--trim-color); }
+a:link { color: var(--hex-trim); }
+a:visited { color: var(--hex-trim); }
 a:focus { color: white; }
 a:hover { color: white; }
 a:active { color: white; }
@@ -74,7 +74,7 @@ a:active { color: white; }
 /* General style rules for the website */
 body {
     background-color: #111111;
-    background-image: url(../media/sms-background.svg);
+    background-image: url(../assets/sms-background.svg);
     background-repeat: repeat;
     background-size: 150px;
     background-attachment: fixed;
@@ -88,7 +88,7 @@ body {
 }
 
 h1, h2, h3 { 
-    color: var(--trim-color);
+    color: var(--hex-trim);
     text-align: center; 
     font-family: "Ocean";
     font-weight: normal;
@@ -97,7 +97,7 @@ h1, h2, h3 {
 h1 { font-size: 108pt; }
 h2 { font-size: 72pt; margin-bottom: 50px;}
 h3 { font-size: 36pt; }
-.trim { color: var(--trim-color); }
+.trim { color: var(--hex-trim); }
 .left { text-align: left; }
 .right { text-align: right; }
 .centered {
@@ -118,24 +118,63 @@ h3 { font-size: 36pt; }
 /* --------------------------------- */
 
 #about { 
-    display: grid; 
-    row-gap: 50px; 
-    margin-bottom: 200px; }
-#subtitle {
-    text-align: center;
-    font-size: 24pt;
-    margin: -20px 0 0 0;
+    display: grid;
+    row-gap: 50px;
+    margin-bottom: 200px;
+}
+#about h2 {
+    margin-top: 40px;
+}
+#about .idCard {
+    background: var(--stripe-pattern);
+    width: 700px;
+    margin: 0 auto;
+    
+    /* Padding isn't included in width & height */
+    padding: 20px;
+    border-radius: 40px;
+}
+#about .idCard .topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: #3E3E3E;
+    padding: 15px;
+    border-radius: 30px;
 }
 #profile {
-    display: block;
-    width: 200px;
-    margin: 0 auto;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
 }
-#age {
-    margin: 0 auto;
-    width: 700px;
-    text-align: center; 
-    font-size: 24pt; 
+#about .idCard .nameTitle {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 15px;
+
+    width: 100%;
+}
+.nameTitle h3 {
+    font-size: 54px;
+}
+#subtitle {
+    font-size: 20px;
+    margin: 8px 0 0 0;
+    font-weight: thin;
+}
+.idCard .infoLine {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 14pt;
+}
+.idCard p { margin: 15px 0 0 0; }
+.idCard .subLine {
+    margin: 5px 0 0 0;
 }
 
 
@@ -212,27 +251,23 @@ h3 { font-size: 36pt; }
 
 #contact {
     display: flex;
+    flex-direction: column;
+    align-items: start;
     justify-content: space-between;
-    align-items: center; /* Vertically centers the text */
-    
-    padding: 20px 0;
-    width: 100%;
-
-    background-color: #444444;
 }
-#contact .social {
+.social {
     display: flex;
-    justify-content: center;
-
-    width: 25%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
 }
-#contact .social img { width: 30px; }
-#contact .social p { 
+.social img { height: 18px; }
+.social p { 
+    margin: 0 0 0 10px;
     text-align: left; 
-    font-size: 12pt;
-    margin-left: 10px;
+    font-size: 14px;
 }
-#contact .social a { 
+.social a { 
     color: inherit; 
     text-decoration: none; 
 }

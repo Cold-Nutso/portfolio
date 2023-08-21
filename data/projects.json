@@ -1,11 +1,11 @@
 [
     {
         "index": 0,
-        "id": "poke-self",
+        "id": "poke",
         "name": "Find your Poke-Self!",
         "subtitle": "Search Pokémon by height and weight",
-        "icon1": "media/projects/find_your_poke_self/oranguru.png",
-        "icon2": "media/projects/find_your_poke_self/toxicroak.png",
+        "icon1": "./assets/proj/poke/oranguru.png",
+        "icon2": "./assets/proj/poke/toxicroak.png",
         "info": [
             "<p>Here's a JavaScript project that utilizes the <a href='https://pokeapi.co/'>Pokémon API</a>. It's a fantastic source of information for every Pokémon in the dex. Literally any information you want about a specific Pokémon can be found here. Super cool.</p>",
             "<br>",
@@ -13,7 +13,8 @@
             "<br>",
             "<p>Realistically, there are only going to be a select number of Pokémon any of us will find. Most of them aren't even humanoid, so their height to weight ratios won't be very human either. But practically isn't the point. It's a fun and stupid thing you'll use exactly once.</p>",
             "<br>",
-            "<a class='lastlink' href='https://people.rit.edu/vwp5337/235/project2/' target='_blank'>You can check it out here!</a>"
+            "<a class='centered' href='https://people.rit.edu/vwp5337/235/project2/' target='_blank'>You can check it out here!</a>",
+            "<br>"
         ]
     },
     {
@@ -21,37 +22,38 @@
         "id": "worms",
         "name": "Champion of Worms",
         "subtitle": "Mod character for <strong>Blazing Beaks</strong>",
-        "icon1": "media/projects/champion_of_worms/idle.png",
-        "icon2": "media/projects/champion_of_worms/hit.png",
+        "icon1": "./assets/proj/worms/idle.png",
+        "icon2": "./assets/proj/worms/hit.png",
         "info": [
             "<p>I created a mod character for <a href='https://store.steampowered.com/app/585710/Blazing_Beaks'>Blazing Beaks</a> (developed by <strong>Applava</strong>). The game is a roguelike bullet-hell that capitalizes on the inherent risk/reward of being greedy. It's ridiculously charming and I can't recommend it enough.</p>",
             "<br>",
             "<span class='centered'>Now let's talk about the <em>Champion of Worms</em>!</span>",
             "<br>",
-            "<img class='centered' id='worms1' src='media/projects/champion_of_worms/profile.png' alt='Champion of Worms profile sprite.'>",
+            "<img class='centered' id='worms1' src='./assets/proj/worms/profile.png' alt='Champion of Worms profile sprite.'>",
             "<br>",
             "<p>It's me. The design is just an exaggerated me. Fortunately, I'm pretty cool, so the prompt makes for a stellar character. The common theme between all <em>Blazing Beaks</em> playable characters is that they have beaks (or bills). I thought I could justify ignoring that rule with lore. He's there to represent every worm so cruelly consumed by avian forces. \"Champion of Worms\" is an actual title I hold as well, so it all checks out.</p>",
             "<br>",
-            "<img id='worms2' src ='media/projects/champion_of_worms/jump.gif' alt='Champion of Worms jump sprite.'",
+            "<img id='worms2' src ='./assets/proj/worms/jump.gif' alt='Champion of Worms jump sprite.'",
             "<p>I also changed the character's stats to better represent me. He has a really fast rate of fire, an absolutely miniscule amount of health, and a tendency to find extra artifacts. It reflects the way I play; constantly firing, gathering absolutely every item I see, and just assuming I'm not going to get hit.</p>",
             "<br>",
-            "<img id='worms3' src='media/projects/champion_of_worms/walk.gif' alt='Champion of Worms walk sprite.'>",
+            "<img id='worms3' src='./assets/proj/worms/walk.gif' alt='Champion of Worms walk sprite.'>",
             "<p>I don't have a lot of patience for animating so I'm thankful <em>Blazing Beaks</em> went as bare bones as they could with their style. And in addition to a bunch of sprites, I recorded some audio to go along with it. They definitely aren't the pinnacle of voice acting, but it's fun to hear myself in a game.</p>",
             "<br>",
             "<p>Mega cheers to <strong>Applava</strong> for making the mod creation process both simple and intuitive. Without their forward thinking I probably wouldn't have done this.</p>",
             "<br>",
-            "<a class='centered' href='https://steamcommunity.com/sharedfiles/filedetails/?id=2530127283&searchtext=' target='_blank'>Here's the mod pack on Steam!</a>"
+            "<a class='centered' href='https://steamcommunity.com/sharedfiles/filedetails/?id=2530127283&searchtext=' target='_blank'>Here's the mod pack on Steam!</a>",
+            "<br>"
         ],
-        "css": "styles/project-styles/worms.css",
-        "script": "src/projects/worms.js"
+        "css": "./styles/project-styles/worms.css",
+        "script": "./src/projects/worms.js"
     },
     {
         "index": 2,
         "id": "alchemy",
         "name": "8-bit Alchemy",
         "subtitle": "Yet another pixel font",
-        "icon1": "media/projects/8_bit_alchemy/bottle.png",
-        "icon2": "media/projects/8_bit_alchemy/bottle.png",
+        "icon1": "./assets/proj/alchemy/bottle.png",
+        "icon2": "./assets/proj/alchemy/bottle.png",
         "info": [
             "<p class='alchemy centered' contenteditable='true'>SPHINX OF BLACK QUARTZ, JUDGE MY VOW</p>",
             "<br>",
@@ -61,34 +63,36 @@
             "<br>",
             "<p>I used <a href='https://fontstruct.com/'>Fonstruct</a> to make this. I'd recommend it to anyone looking a simple font. If for some reason you'd like to use my font in a project, feel completely free! I'd love to know about it too.</p>",
             "<br>",
-            "<a class='centered' href='https://fontstruct.com/fontstructions/show/1843544/8-bit-alchemy' target='_blank'>You can download it here!</a>"
+            "<a class='centered' href='https://fontstruct.com/fontstructions/show/1843544/8-bit-alchemy' target='_blank'>You can download it here!</a>",
+            "<br>"
         ],
-        "css": "styles/project-styles/alchemy.css",
-        "script": "src/projects/alchemy.js"
+        "css": "./styles/project-styles/alchemy.css",
+        "script": "./src/projects/alchemy.js"
     },
     {
         "index": 3,
         "id": "punch",
         "name": "Colosseum of Punch",
         "subtitle": "Beat up skeletons, get famous",
-        "icon1": "media/projects/colosseum_of_punch/knuckolai.png",
-        "icon2": "media/projects/colosseum_of_punch/ghost-skeleton.png",
+        "icon1": "./assets/proj/punch/knuckolai.png",
+        "icon2": "./assets/proj/punch/ghost.png",
         "info": [
             "<p><em>Skeleton ghosts are flooding the Colosseum of Punch! You must fight back, but you can't hit them until they've donned the Reality Crown. Punch as many as you can to rack up your fanbase before you face an inevitable gladiator's death.</em></p><br>",
-            "<img id='punch1' class='centered' src='media/projects/colosseum_of_punch/reality-crown.png' alt='The reality crown.'><br>",
+            "<img id='punch1' class='centered' src='./assets/proj/punch/crown.png' alt='The reality crown.'><br>",
             "<p>This is a really small JavaScript game I programmed. I'd describe it as an arcade-style beat-em-up. You punch the crowned skeleton and watch it ricochet across the screen. The crown falls onto another skeleton ghost and the process repeats. If a crowned skeleton touches you, that's game over. So try and punch as many as possible to get a high score before that happens.</p><br>",
             "<p>That crown movement was real difficult to accomplish so you better appreciate it. It took a decent amount of physics brain to make that all happen. But the result is totally worth it, it's a great organic visual indicator of which skeleton ghost will wear the crown next.</p><br>",
-            "<a class='centered' href='https://people.rit.edu/vwp5337/colosseum-of-punch/game.html' target='_blank'>Click here to check it out!</a>"
+            "<a class='centered' href='https://people.rit.edu/vwp5337/colosseum-of-punch/game.html' target='_blank'>Click here to check it out!</a>",
+            "<br>"
         ],
-        "css": "styles/project-styles/punch.css"
+        "css": "./styles/project-styles/punch.css"
     },
     {
         "index": 4,
         "id": "edgy",
         "name": "Edgy Name Generator",
         "subtitle": "Inspiration for your OC needs",
-        "icon1": "images/small-art/icons/oblivion-void_icon.svg",
-        "icon2": "images/small-art/icons/shadow's-demise_icon.svg",
+        "icon1": "./images/small-art/icons/cackling.svg",
+        "icon2": "./images/small-art/icons/shadow's-demise_icon.svg",
         "info": [
             "<p class='centered' id='edgy-name'>Vitaly Pronin</p>",
             "<p class='centered' id='edgy-title'>Champion of Worms</p>",
@@ -115,14 +119,33 @@
             "</div>",
             "<div id='edgy-exe'>",
             "<p>I initially made this with Windows Forms. In that version, you can cycle each word among a family of similar or related words. Below I've placed a couple screenshots of what the program looks like.</p><br>",
-            "<img class='centered' id='edgy-img-1' src='media/projects/edgy_name_generator/generator.png'><br><br>",
+            "<img class='centered' id='edgy-img-1' src='./assets/proj/edgy/generator.png'><br><br>",
             "<p>The most useful thing about the downloadable version is having complete vocabulary control. I created an editor that lets you pretty easily add, alter, or remove words and word families. If you wanted, you could use that to create an entirely new set of non-edgy vocabulary.</p><br>",
-            "<img class='centered' id='edgy-img-2' src='media/projects/edgy_name_generator/editor.png'><br><br>",
-            "<a class='centered' href='media/projects/edgy_name_generator/Edgy Name Generator.zip' download>Download the zip file!</a>",
-
+            "<img class='centered' id='edgy-img-2' src='./assets/proj/edgy/editor.png'><br><br>",
+            "<a class='centered' href='./assets/proj/edgy/Edgy Name Generator.zip' download>Download the zip file!</a>",
+            "<br>",
             "</div>"
         ],
-        "css": "styles/project-styles/edgy.css",
-        "script": "src/projects/edgy.js"
+        "css": "./styles/project-styles/edgy.css",
+        "script": "./src/projects/edgy.js"
+    },
+    {
+        "index": 5,
+        "id": "terraria",
+        "name": "Terraria Mods",
+        "subtitle": "Sprite and dialogue packs",
+        "icon1": "./images/pixel/bionicle/lewa.png",
+        "icon2": "./images/pixel/bionicle/nokama.png",
+        "info": [
+            "<p>I've logged over 1000 hours of time playing <a href='https://store.steampowered.com/app/105600/Terraria/' target='_blank'>Terraria</a>. It's the kind of high quality game that can only come from a passionate team.</p>",
+            "<br>",
+            "<p>A lot of NPC mods have great spritework, but don't change much else. I try to make mine as complete package as well. That means adapting sprites, dialogue, and some related items.</p>",
+            "<br>",
+            "<a class='centered' href='https://steamcommunity.com/id/coldnutso/myworkshopfiles/?appid=105600&sort=score&browsefilter=myfiles&view=imagewall' target='_blank'>Check out my Steam workshop page!</a>",
+            "<br>",
+            "</div>"
+        ],
+        "css": "./styles/project-styles/edgy.css",
+        "script": "./src/projects/edgy.js"
     }
 ]

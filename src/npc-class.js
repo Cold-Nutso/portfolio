@@ -45,7 +45,7 @@ class NPC {
         this.element.style.height = `${length}px`;
         this.sprite = document.createElement("img");
         this.sprite.draggable = false; // Might need to change this later
-        this.sprite.src = `media/npcs/${name}/idle.gif`;
+        this.sprite.src = `assets/npcs/${name}/idle.gif`;
         let boxElem = document.createElement("div");
         boxElem.onmouseover = () => { boxElem.style.cursor = "grab"; }
 
@@ -111,12 +111,12 @@ class NPC {
 
             switch (state) {
                 case npcState.IDLE:
-                    this.sprite.src = `media/npcs/${this.name}/${npcState.IDLE}.gif`;
+                    this.sprite.src = `assets/npcs/${this.name}/${npcState.IDLE}.gif`;
                     this.hitbox.assignDimensions(this.hbDims[0]);
                     break;
     
                 case npcState.RUN:
-                    this.sprite.src = `media/npcs/${this.name}/${npcState.RUN}.gif`;
+                    this.sprite.src = `assets/npcs/${this.name}/${npcState.RUN}.gif`;
                     this.hitbox.assignDimensions(this.hbDims[1]);
                     break;
             }
@@ -125,7 +125,7 @@ class NPC {
         }
 
         if (!this.grounded) {
-            this.sprite.src = `media/npcs/${this.name}/${"jump"}.gif`;
+            this.sprite.src = `assets/npcs/${this.name}/${"jump"}.gif`;
             this.hitbox.assignDimensions(this.hbDims[1]);
         }
     }
@@ -201,23 +201,23 @@ class NPC {
                 this.state = state;
 
             if (!this.grounded) {
-                this.sprite.src = `media/npcs/${this.name}/${"jump"}.gif`;
+                this.sprite.src = `assets/npcs/${this.name}/${"jump"}.gif`;
                 this.hitbox.assignDimensions(this.hbDims[1]);
             }
             else {
                 switch (this.state) {
                     case npcState.IDLE:
-                        this.sprite.src = `media/npcs/${this.name}/${npcState.IDLE}.gif`;
+                        this.sprite.src = `assets/npcs/${this.name}/${npcState.IDLE}.gif`;
                         this.hitbox.assignDimensions(this.hbDims[0]);
                         break;
         
                     case npcState.RUN:
-                        this.sprite.src = `media/npcs/${this.name}/${npcState.RUN}.gif`;
+                        this.sprite.src = `assets/npcs/${this.name}/${npcState.RUN}.gif`;
                         this.hitbox.assignDimensions(this.hbDims[1]);
                         break;
     
                     case npcState.SQUAT:
-                        this.sprite.src = `media/npcs/${this.name}/${npcState.SQUAT}.gif`;
+                        this.sprite.src = `assets/npcs/${this.name}/${npcState.SQUAT}.gif`;
                         this.hitbox.assignDimensions(this.hbDims[1]);
                         break;
                 }

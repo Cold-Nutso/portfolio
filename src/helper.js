@@ -1,5 +1,9 @@
 "use strict";
 
+const isOverflown = (scrollHeight, clientHeight) => {
+    return scrollHeight > clientHeight;
+}
+
 function clamp(val, min, max) {
     return val > max ? max : val < min ? min : val;
 }
@@ -104,6 +108,7 @@ class PhysicsBody {
 }
 
 export {
+    isOverflown,
     clamp,
     randElem,
     randInt,

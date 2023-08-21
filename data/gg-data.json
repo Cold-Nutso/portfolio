@@ -1,0 +1,572 @@
+{
+    "compound": [
+        {
+            "name": "radiant plane",
+            "description": [
+                "Everything one is capable of experiencing takes place within Radiant territory. Color, sound, time, thought, and more are all executed together to form what we know as reality. Life in its entirety takes place in the Radiant Plane."
+            ],
+            "icon": "images/small-art/umbradial-compound/radiant-plane.svg"
+        },
+        {
+            "name": "umbral plane",
+            "description": [
+                "This dimension runs adjacent to the radiant plane. All functions of reality are first calculated and executed through umbral space. Housed within, the patron hues diligently operate their respective tasks."
+            ],
+            "icon": "images/small-art/umbradial-compound/umbral-plane.svg"
+        }
+    ],
+    "hues": [
+        {
+            "name": "umbrage",
+            "hex": "#000000",
+            "class": "primary",
+            "form": "an organic solid",
+            "description": [
+                "This hue controls the *storage* and *management* of Umbradial elements. It's most often exploited to manipulate the location or size of various things."
+            ],
+            "design": [
+                "Umbrage looks like a particularly dark *shadow* with crisp edges. Shapes are formed entirely of curves and move organically."
+            ],
+            "icon": "images/small-art/hues/umbrage.svg"
+        },
+        {
+            "name": "trifle",
+            "hex": "#2CFF5E",
+            "class": "secondary",
+            "actions": [ "birth", "perseverance" ],
+            "description": [
+                "This hue actualizes *birth* and the *perseverance* of Umbradial entities. It's generally used to create, sustain, and bring back life."
+            ],
+            "design": [
+                "When active, trifle seeps into the air as a heavy *smoke*. The smoke starts opaque but will dissipate fairly quickly."
+            ],
+            "icon": "images/small-art/hues/trifle.svg"
+        },
+        {
+            "name": "eclipse",
+            "hex": "#FFFFFF",
+            "class": "secondary",
+            "description": [
+                "This hue facilitates *death* and the *reduction* of Umbradial components. It has the potential to remove any given thing completely and irreversibly, to the point of it never existing in the first place."
+            ],
+            "design": [
+                "The inner eclipse core is a complete *solid* and cannot change shape. Bordering it is a thin and seething umbral flame."
+            ],
+            "icon": "images/small-art/hues/eclipse.svg"
+        },
+        {
+            "name": "root",
+            "hex": "#8FF4FF",
+            "class": "tertiary",
+            "description": [
+                "Guides the *reading* and *discovery* of Umbradial truths. Those who employ it tend to see through illusions or obstacles. Others opt to learn information from distant places and times."
+            ],
+            "design": [
+                "Root conducts almost exactly like *lightning*. Either visually striking a target or making short bursts of electric pulses."
+            ],
+            "icon": "images/small-art/hues/root.svg"
+        },
+        {
+            "name": "spire",
+            "hex": "#FDA6FF",
+            "class": "tertiary",
+            "form": "soapy bubbles",
+            "actions": [ "perception", "processing" ],
+            "description": [
+                "This hue stirs the *perception* and *processing* of Umbradial functions. It can be applied to toy with the operative processes of thought and random chance. "
+            ],
+            "design": [
+                "Sources of spire will periodically spawn clumps of soapy *bubbles*. These float outwardly for a short period before popping."
+            ],
+            "icon": "images/small-art/hues/spire.svg"
+        },
+        {
+            "name": "bedlam",
+            "hex": "#FFE41D",
+            "class": "tertiary",
+            "description": [
+                "This hue empowers *creativity* and the *overruling* of Umbradial traditions. Ironically, it's the hue with the most restricted use case. It is exclusively used to craft special items that when used, will grant exceptions to reality's rules."
+            ],
+            "design": [
+                "In moments of inspiration, bedlam flows in splashes of viscous *paint*. Afterwards, quickly sinking into the objects it landed on."
+            ],
+            "icon": "images/small-art/hues/bedlam.svg"
+        },
+        {
+            "name": [
+                "delta",
+                "delta effect",
+                "delta clause",
+                "delta phenomenon",
+                "delta pressure",
+                "delta tension",
+                "delta influence"
+            ],
+            "hex": "#AF7DFF",
+            "class": "peerless",
+            "domain": [
+                "uncertainty",
+                "change yet to come",
+                "instability",
+                "reimagining",
+                "impermanent attributes",
+                "unsettled features",
+                "alteration"
+            ],            
+            "description": [
+                "This hue is a supreme and absolute force over the entire Umbradial Compound. It embodies the *uncertainty* and *change yet to come* of all components. Any entity or rule, physical or conceptual, at any given time, is subject to being rewritten by delta."
+            ],
+            "icon": "images/small-art/umbradial-compound/delta.svg"
+        }
+    ],
+    "regions": [
+        {
+            "name": "Queen's Rest",
+            "hex": "#2CFF5E",
+            "description": [
+                "A vast expanse of hills and plateaus, covered in a thick carpet of clovers. An especially diverse set of wildflowers dot the area. Known for its fair weather and remnants of Old Earth, Queen's Rest is a popular site for historians and tourists alike.",
+                "Pinpointed exactly at this region's epicenter is the resting place of the *First Mother*. Presumably, an aura of lingering *trifle* is what brings so much life to the surrounding land."
+            ],
+            "icon": "images/small-art/regions/queen's-rest.svg",
+            "image": "images/small-art/regions/queen's-rest.svg"
+        },
+        {
+            "name": "Flavoma",
+            "description": [
+                "Flatlands and plains make up the majority of the region, intersected by a labyrinth of rivers and offshoot creeks. With rich soil, warm air, and frequent rain, Flavoma is the ideal place for a plantation. The climate here supports a healthy life for both its crops and its citizens.",
+                "Flavoma is the native homeland of the amphibious chimera, and they account for nearly 100% of its people. The connection is so exclusive that the words “Flavian” and “chimera” are commonly interchanged."
+            ],
+            "icon": "images/small-art/regions/flavoma.svg",
+            "image": "images/small-art/regions/flavoma.svg"
+        },
+        {
+            "name": "Grandfather Dunes",
+            "description": [
+                "Capital: Outlaw's Oasis"
+            ],
+            "icon": "images/small-art/regions/grandfather-dunes.svg",
+            "image": "images/small-art/regions/grandfather-dunes.svg"
+        },
+        {
+            "name": "The Bog",
+            "description": [
+                "Capital: Bog King's Mansion"
+            ],
+            "icon": "images/small-art/regions/bog.svg",
+            "image": "images/small-art/regions/bog.svg"
+        },
+        {
+            "name": "The Edge",
+            "description": [
+                "The border separating the rest of GardenGrave from the Hell crater. This landscape is barren and rocky, riddled with jagged mountains and steep cliffs. Heat from Hell below causes ashes to rise and collect in a massive cloud above. The sun is obscured, the land is perpetually dark. No vegetation can survive on the Edge. All life must be carnivorous to survive.",
+                "This place is where all the unforgivable dredges of society are banished to. Its prisoners are antisocial and arrogant. Since the murder of the original Edge Lord, the only thing ruling this land is the law of angst."
+            ],
+            "icon": "images/small-art/regions/edge.svg",
+            "image": "images/small-art/regions/edge.svg"
+        },
+        {
+            "name": "Hell",
+            "description": [
+                "A burning hot crater kilometers below ocean level. An unforgiving environment peppered with magma cracks and boiling geysers. This land is scarce for resources, so life down under is dangerous and desperate to fight for it.",
+                "Escaping persecution, early devils settled in Hell to live in peace. Since then, they've adapted to the harsh environment and created a thriving civilization."
+            ],
+            "icon": "images/small-art/regions/hell.svg",
+            "image": "images/small-art/regions/hell.svg"
+        },
+        {
+            "name": "Piki Archipelago",
+            "description": [
+                "Capital: Iki-Piki"
+            ],
+            "icon": "images/small-art/regions/piki-pelago.svg",
+            "image": "images/small-art/regions/piki-pelago.svg"
+        },
+        {
+            "name": "Blackwater Woods",
+            "hex": "#000000",
+            "description": [
+                "Capital: Duke's trailer"
+            ],
+            "icon": "images/small-art/regions/blackwater-woods.svg",
+            "image": "images/small-art/regions/blackwater-woods.svg"
+        },
+        {
+            "name": "Frijfeld",
+            "description": [
+                "Capital: Yagaren cabin"
+            ],
+            "icon": "images/small-art/regions/frijfeld.svg",
+            "image": "images/small-art/regions/frijfeld.svg"
+        }
+    ],
+    "sentients": [
+        {
+            "name": "human",
+            "biology": [ "primate", "sexual, live-birth" ],
+            "height": [ "~ 5'6\"", "~ 5'2\"" ],
+            "skin": [ "fair to dark brown" ],
+            "hair": [ "black, brown, red, or blond", "human standard", "straight, wavy, or curly" ],
+            "eyes": [ "round", "brown, green, or blue" ],
+            "description": [
+                "You should be pretty familiar with these guys. As a pre-Perforation species, humans make up the overwhelming majority of the GardenGrave's population.",
+                "Humans are seen as a species arrogant and stubborn with age. The collapse of the ancient world has given them a reputation for violence."
+            ],
+            "icon": "images/small-art/sentients/human.svg",
+            "image": "images/small-art/sentients/human.svg"
+        },
+        {
+            "name": "reptilian",
+            "biology": [ "reptile", "sexual, egg-laying" ],
+            "height": [ "~ 5'6\"", "~ 5'2\"" ],
+            "skin": [ "any color", "coated in scales" ],
+            "head": [ "structure varied based on ancestry", "circular tympanic membranes", "reptilian nostrils"  ] ,
+            "eyes": [ "round, slit, or horizontal", "any color", "nictitating membrane instead of traditional eyelid" ],
+            "tail": [ "shape and properties vary based on ancestry" ],
+            "feet": "lizard-like anatomy",
+            "nails": "small claws or none at all",
+            "description": [
+                "A reptilian's scales are capable of pigment alteration. The level of control over this will vary between individuals. Historically, reptilians have used this to hide from humans."
+            ],
+            "icon": "images/small-art/sentients/reptilian.svg",
+            "image": "images/small-art/sentients/reptilian.svg"
+        },
+        {
+            "name": "umbraborn",
+            "biology": [ "patron hue", "none" ],
+            "height": [ "any" ],
+            "skin": [ "black", "smooth or intangeable", "composed of umbrage" ],
+            "eyes": [ "varied", "none", "shaped with negative space" ],
+            "description": [
+                "Creatures of pure *umbrage*, birthed from the Perforation. Umbraborn come in vastly different shapes, though all share the commonality of their silence.",
+                "They appear to be formed from the discarded data of dead entities. Essentially, they're ghosts."
+            ],
+            "icon": "images/small-art/sentients/umbraborn.svg",
+            "image": "images/small-art/sentients/umbraborn.svg"
+        },
+        {
+            "name": "amphyllate",
+            "biology": [ "amphibian / plant", "sexual, live-birth" ],
+            "height": [ "~ 4'10\"", "~ 5'1\"" ],
+            "skin": [ "any color, commonly pastel", "thin, coarse", "permeable to water and air" ],
+            "crop": [ "plant-like growth wildly varied in properties", "top and sides of head, sometimes face", "lacks a nervous system, can be trimmed without harm" ],
+            "head": [ "rounded, larger features", "circular tympanic membranes", "none", "rounded", "fat and forked" ],
+            "eyes": [ "round", "none", "black sclera" ],
+            "nails": "none",
+            "description": [
+                "Though an amphyllate possesses traits from many different animal kingdoms, it is closest to the amphibian. Thin and permeable skin allows for dermal respiration, especially efficient in a moist environment.",
+                "A notable feature of the amphyllate is the lack of a true nose. Instead, a stubby forked tongue can be used to accurately pick up on scents.",
+                "Instead of ears, an amphyllate has barely-visible circular tympanum on each side of its head. Between them are a pair of eyes completely filled with pupils.",
+                "The most unique trait of the amphyllate is the plant-like growth sprouting from the head. The attributes of this crop vary greatly and are unique to each amphyllate.",
+                "A amphyllate has no claws or nails of any sort. This, coupled with a generally small stature, makes the amphyllate a more fragile sentient than most."
+            ],
+            "icon": "images/small-art/sentients/amphyllate.svg",
+            "image": "images/big-art/minty-mccane.png"
+        },
+        {
+            "name": "devil",
+            "biology": [ "marsupial / raptor", "sexual, live-birth" ],
+            "height": [ "~ 5'9\"", "~ 5'9\"" ],
+            "skin": [ "crimson to salmon", "coarse, rubbery", "resistant to heat and flame" ],
+            "hair": [ "ash black to ash white", "human standard", "flame resistant, heat causes strands to curl" ],
+            "horns": [ "two extruding from forehead just below hairline", "laterally symmetrical, wild variation in shape" ],
+            "head": [ "accentuated, acute features", "tapered", "human standard", "pointed" ],
+            "eyes": [ "slit", "violet or amber", "heat resistant, iris covers most of eye" ],
+            "tail": [ "around forearm thickness", "half to full leg length", "rests at a slightly lower angle than horizontal" ],
+            "legs": "raptor-like anatomy",
+            "feet": "raptor-like anatomy",
+            "nails": "hardened claws",
+            "description": [
+                "Unfinished text."
+            ],
+            "icon": "images/small-art/sentients/devil.svg",
+            "image": "images/big-art/berith.png"
+        },
+        {
+            "name": "synthient",
+            "eyes": [ "camera aperture" ],
+            "ears": "input microphone",
+            "description": [
+                "Unfinished text."
+            ],
+            "icon": "images/small-art/sentients/synthient.svg",
+            "image": "images/big-art/protecturtle.svg"
+        }
+    ],
+    "vikings": [
+        {
+            "name": "Sazha Brunikin",
+            "hex": "#FFFFFF",
+            "bio": [
+                "*Sazha*, the reticent"
+            ],
+            "story": [
+                "Excerpt from Boris Borson's *Tales to Bewilder*",
+                "Entry #5 - The Devil in Frijfeld",
+                "It was unusual to see a devil in Frijfeld. I had heard they were kind, so I called out to ask her name.",
+                "Everything about her felt, wrong. The air hung stagnant. She looked old, but her skin was young. I could barely let out a whisper."
+            ],
+            "notes": [
+                "Designer's Notes",
+                "Life outside of Hell has exposed Sazha to the sun, so her skin is dark and freckled. However, an abnormally mild environment has keeps it healthy and young.",
+                "Sazha is designed with four cores in mind: a patron hue(*eclipse*), animal(*reindeer*), weapon(*club*), and halloween cryptid(*devil*). She doesn't know how to fight, but may use a thick branch to defend herself if needed."
+            ],
+            "icon": "images/small-art/shields/shield-0.svg",
+            "art": [
+                "images/big-art/berith.png"
+            ]
+        },
+        {
+            "name": "Halfrid Vorobevna",
+            "hex": "#FDA6FF",
+            "bio": [
+                "*Halfrid*, the forgotten"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes",
+                "Halfrid is designed with four cores in mind: a patron hue(*spire*), animal(*winter wolf*), weapon(*battle axe*), and halloween cryptid(*werewolf*)."
+            ],
+            "icon": "images/small-art/shields/shield-1.svg",
+            "art": [
+                "images/big-art/pepper-mccane.png"
+            ]
+        },
+        {
+            "name": "Vali Asgerof",
+            "hex": "#2CFF5E",
+            "bio": [
+                "*Vali*, the shambler",
+                "Burdened by *angelicism*, Vali is entirely permanent. He cannot be removed from reality.",
+                "Despite his immortality, Vali's body has taken extensive damage from *frostbite*. His skin is black and extremities numb. As a result, his motor control is poor. Vali often slurs his words when he speaks.",
+                "He wears the horns and hide of *Berglót*; an old friend from a past life."
+            ],
+            "story": [
+                "The Story",
+                "Years ago, a great storm circled ^Starajn Peak^. Thrashing winds loosed an avalanche, barreling towards a hunting encampment down below. Men were seized by the snow and scattered miles apart.",
+                "One hunter surfaced in an unknown plain. Looking around, all he could see was a lone woolly rhinocerous; likewise separated from its herd. The beast marched blindly through the ongoing blizzard. And with no better option, the hunter followed.",
+                "Hours passed and the creature slowed. Frozen and exhausted, it collapsed to the ground. With little hope for his own life, the hunter joined its respite. The two lied together as their bodies went numb."
+            ],
+            "notes": [
+                "Designer's Notes",
+                "The way Vali's angelicism works is by constantly being reestablished. He's like an object that gets instantiated at the end of every frame. Vali can't not exist, because he's part of the core loop.",
+                "Vali is designed with four cores in mind: a patron hue(*trifle*), animal(*woolly rhinocerous*), weapon(*spear*), and halloween cryptid(*zombie*). Some of his tattoos look like a zombie's stitches."
+
+            ],
+            "icon": "images/small-art/shields/shield-2.svg",
+            "art": [
+                "images/big-art/vali.png",
+                "images/big-art/trifle-vali.png"
+            ]
+        },
+        {
+            "name": "Runa Yagaren",
+            "hex": "#FFE41D",
+            "bio": [
+                "*Runa*, the whisperer"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes",
+                "Erin is designed with four cores in mind: a patron hue(*bedlam*), animal(*ravenhawk*), weapon(*shortbow*), and halloween cryptid(*witch*)."
+            ],
+            "icon": "images/small-art/shields/shield-3.svg",
+            "art": [
+                "images/big-art/viper-freak_OOD.png"
+            ]
+        },
+        {
+            "name": "Casimir Helgeson",
+            "hex": "#8FF4FF",
+            "bio": [
+                "*Casimir*, the witness"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes",
+                "Casimir's brother *Calder* is a blacksmith in ^Village Name^.",
+                "Casimir is designed with four cores in mind: a patron hue(*root*), animal(*hare*), weapon(*knife*), and halloween cryptid(*vampire*)."
+            ],
+            "icon": "images/small-art/shields/shield-4.svg",
+            "art": [
+                "images/big-art/shadow's-demise_OOD3.png"
+            ]
+        },
+        {
+            "name": "Fiske Adriknir",
+            "hex": "#000000",
+            "bio": [
+                "*Fiske*, the dignitary"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes",
+                "Fiske is designed with four cores in mind: a patron hue(*umbrage*), animal(*narwhal*), weapon(*shortsword*), and halloween cryptid(*ghost*)."
+            ],
+            "icon": "images/small-art/shields/shield-5.svg",
+            "art": [
+                "images/big-art/taxavasion-homicide.png"
+            ]
+        }
+    ],
+    "cowboys": [
+        {
+            "name": "Annie McCoy",
+            "hex": [ "#8FF4FF", "#FDA6FF" ],
+            "bio": [
+                "Annie \"*Ghost-Shot*\" McCoy"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes"
+            ],
+            "icon": "images/small-art/sentients/human.svg",
+            "art": [
+                "images/small-art/sentients/human.svg"
+            ]
+        },
+        {
+            "name": "Barnaby ^Titan^",
+            "bio": [
+                "Barnaby \"*the Vulture*\" ^Titan^"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes"
+            ],
+            "icon": "images/small-art/sentients/human.svg",
+            "art": [
+                "images/small-art/sentients/human.svg"
+            ]
+        },
+        {
+            "name": "Benjamin Thorn",
+            "bio": [
+                "Benjamin \"*Blind Ben*\" Thorn"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes"
+            ],
+            "icon": "images/small-art/sentients/human.svg",
+            "art": [
+                "images/small-art/sentients/human.svg"
+            ]
+        },
+        {
+            "name": "Rachel Limbranch",
+            "bio": [
+                "*Sheriff* Rachel Limbranch"
+            ],
+            "story": [
+            ],
+            "notes": [
+                "Designer's Notes"
+            ],
+            "icon": "images/small-art/sentients/human.svg",
+            "art": [
+                "images/small-art/sentients/human.svg"
+            ]
+        }
+    ],
+    "characters": [
+        {
+            "name": "Taxavasion Homicide",
+            "hex": "#000000",
+            "description": [
+                "The original Edge Lord. Taxavasion established a governmental structure in the Edge through a one-man military coup. Countless attempts to dethrone him have been brutally cut down with his signature sword 'Militana'. ",
+                "Techinically, Tax is an angel. An angel of umbrage. Physics seems to render his arms a little longer than they actually are."
+            ],
+            "icon": "images/small-art/icons/ta_icon.svg",
+            "image": "images/big-art/taxavasion-homicide.png"
+        },
+        {
+            "name": "Cackling Shadow",
+            "hex": [ "#000000" ],
+            "icon": "images/small-art/hues/umbrage_grey.svg",
+            "image": "images/big-art/cackling-shadow.svg"
+        },
+        {
+            "name": "Viper Freak",
+            "icon": "images/small-art/icons/viper-freak_icon.svg",
+            "image": "images/big-art/viper-freak_OOD.png"
+        },
+        {
+            "name": "Shadow's Demise",
+            "hex": ["#000000", "#FF0000" ],
+            "title": [ "Prince of Darkness" ],
+            "icon": "images/small-art/icons/shadow's-demise_icon.svg",
+            "image": "images/big-art/shadow's-demise_OOD3.png"
+        },
+        {
+            "name": "Oblivion Void",
+            "hex": ["#000000" ],
+            "title": [ "The Starving Clown" ],
+            "icon": "images/small-art/icons/shadow's-demise_icon.svg",
+            "image": "images/big-art/shadow's-demise_OOD3.png"
+        },
+        {
+            "name": "Solemn Harrow",
+            "hex": [ "#FF0000" ],
+            "description": [
+                "Born a monkite, Helen was immediately sold to *the Lab* by her disappointed parents. She served as an underling for 17 years, until she had a violent psychotic break. Helen was promptly restrained, but not before snapping off the left horn of *Nightmare's Angel*.",
+                "Perhaps as a punishment for her disobedience, Helen's brain was removed and used to create a *cypher soul*. After some re-programming to prioritize athletic Bally-Ball skills, the cypher soul was put back into her head."
+            ],
+            "icon": "images/small-art/icons/helen_icon.svg",
+            "image": "images/small-art/icons/helen_icon.svg"
+        },
+        {
+            "name": "Katenella",
+            "icon": "images/small-art/icons/catenella_icon.svg",
+            "image": "images/small-art/icons/catenella_icon.svg"
+        },
+        {
+            "name": "Minty McCane",
+            "description": [
+                "A small, unconfident Flavian. Minty in an apartment with his older sister, Pepper.",
+                "Minty represents the rhetorical appeal of *ethos*."
+            ],
+            "icon": "images/small-art/icons/minty_icon.svg",
+            "image": "images/big-art/minty-mccane.png"
+        },
+        {
+            "name": "Pepper McCane",
+            "description": [
+                "The fun, athletic older sister of Minty McCane. She's great at making people smile, and even better at playing Bally-Ball.",
+                "Pepper represents the rhetorical appeal of *pathos*."
+            ],
+            "icon": "images/small-art/icons/pepper_icon.svg",
+            "image": "images/big-art/pepper-mccane.png"
+        },
+        {
+            "name": "Cain Spears",
+            "hex": "#2CFF5E",
+            "description": [
+                "The cold, lonesome best friend of Minty McCane. He wants nothing more than to see others succeed.",
+                "Cain represents the rhetorical appeal of *logos*."
+            ],
+            "icon": "images/small-art/hues/trifle.svg",
+            "image": "images/big-art/cain-restorer.png"
+        }
+    ],
+    "misc": [
+        
+        {
+            "name": "gnome",
+            "hex": "#000000",
+            "description": [
+                "The gnome is a species of *penumbral* fauna native to ~Insanity Woods~. They stand at an average of 11 cm.",
+                "They sport two short legs and a mane of white hair. Above the main is a *tentacle-like appendage* that can extend up to 2 1/2 times its resting length. Gnomes use this appendage to grab items and prey. Their diet consists mostly of berries, insects, and small fish.",
+                "Gnomes are a *microsocial* species, living in small families of 4 to 6."
+            ],
+            "icon": "images/small-art/hues/umbrage_grey.svg",
+            "image": "images/misc/penumbral-gnomes.png"
+        }
+    ]
+}

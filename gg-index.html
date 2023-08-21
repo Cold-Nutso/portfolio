@@ -3,19 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="media/sms-logo.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/sms-logo.ico">
     <title>Learn About GardenGrave</title>
 
     <!-- Link stylesheets -->
     <link rel="stylesheet" href="styles/index-styles.css">
-    <link rel="stylesheet" href="styles/gg-styles.css">
+    <link rel="stylesheet" href="styles/gg/gg-styles.css">
 
     <!-- Load in webfonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
 
-    <script type="module" src="src/gg-main.js"></script>
+    <script type="module" src="src/gg/gg-main.js"></script>
 </head>
 
 <body id = gardengrave>
@@ -25,49 +25,59 @@
         </p>
     </div>
     
-    <ul>
-        <li>
-            <h2>Delta</h2>
-            <div class='entryGroup'>
-                <delta-entry data-id="0"></delta-entry>
+    <div class="tablet" id="hues">
+        <section class='intro'>
+            <h1>Patron Hue</h1>
+            <div class='textScreen pitch'>
+                <div class="screenFade">
+                    <p>All functions involved in operating reality are divided among six total patron hues, each with a unique range of responsibilities and exploits.
+                    Since <span style='color:#000000'>the Perforation</span>, there have been many documented cases of organisms born with a much stronger connection to any given patron hue. This is generally known as the angel phenomenon. A further subset, classified as the labor angels, is made up of hosts that seem to share a consistently reoccuring power. Only two such lines have been documented.
+                    </p>
+                </div>
             </div>
-        </li>
-        <li id='compound'>
-            <h2>Umbradial Compound</h2>
-            <div class="entryGroup">
-            <gg-entry data-id="1"></gg-entry>
-            <gg-entry data-id="2"></gg-entry>
-            </div>
-        </li>
-        <li>
-            <h1>Patron Hues</h1>
-            <p>All functions involved in operating reality are divided among six total patron hues. Each hue has a unique domain of responsibilities and range of exploits. Their names are <span style='color:#000000'>umbrage</span>, <span style='color:#2CFF5E'>trifle</span>, <span style='color:#FFFFFF'>eclipse</span>, <span style='color:#8FF4FF'>root</span>, <span style='color:#FDA6FF'>spire</span>, and <span style='color:#FFE41D'>bedlam</span>.</p>
-            <div class='entryGroup'>
-                <gg-entry data-id="3"></gg-entry>
-                <gg-entry data-id="4"></gg-entry>
-                <gg-entry data-id="5"></gg-entry>
-                <gg-entry data-id="6"></gg-entry>
-                <gg-entry data-id="7"></gg-entry>
-                <gg-entry data-id="8"></gg-entry>
-            </div>
-            <h2>Angel</h2>
-            <p>Since <span style='color:#000000'>the Perforation</span>, there have been many documented cases of organisms born with a much stronger connection to any given patron hue. This is generally known as the angel phenomenon. A further subset, classified as the labor angels, is made up of hosts that seem to share a consistently reoccuring power. Only two such lines have been documented.</p>
-        </li>
+        </section>
+        <section class="content">
+            <section class="textScreen description"><div class="screenFade"><p></p></div></section>
+            <section class='select'>
+                <div class="buttons"></div>
+            </section>
+        </section>
+    </div>
 
-        <li>
+    <div class="tablet" id="vikings">
+        <section class='intro'>
+            <h1>The Frijid</h1>
+            <div class='textScreen pitch'><div class="screenFade"><p>Six angels travel together across Frijfeld, making the best of their isolated lives.</p></div></div>
+        </section>
+        <section class='select'>
+            <div class="buttons"></div>
+        </section>
+        <section class="content">
+            <section class="artScreen art"><div class="screenFade"><img></div></section>
+            <section class="textScreen description"><div class="screenFade"><p></p></div></section>
+            <section class='select'>
+                <div class="buttons"></div>
+            </section>
+        </section>
+    </div>
+
+    <div class="tablet" id="sentients">
+        <section class='intro'>
             <h1>Sentient Species</h1>
-            <p>So far, there are six.</p>
-            <div class='entryGroup'>
-                <gg-entry data-id="9"></gg-entry>
-                <gg-entry data-id="10"></gg-entry>
-                <gg-entry data-id="11"></gg-entry>
-                <gg-entry data-id="12"></gg-entry>
-                <gg-entry data-id="13"></gg-entry>
-                <gg-entry data-id="14"></gg-entry>
-            </div>
-        </li>
+            <div class='screen'><p>After reaching a certain level of intelligence, a species makes its mark on history.</p><div class="fade"></div></div>
+        </section>
+        <section class='select'>
+            <div class="buttons"></div>
+        </section>
+        <section class="content">
+            <h2>Description</h2>
+            <h2>Traits</h2>
+            <section class="textScreen description"><div class="screenFade"><p></p></div></section>
+            <section id="traits" class="textScreen"><div class="screenFade"><p></p></div></section>
+        </section>
+    </div>
 
-        <li>
+        <div>
             <h1>Map</h1>
             <p>Right now it's just locations.</p>
             <div id="map-item">
@@ -86,20 +96,7 @@
                 <gg-entry data-id="29" style="position:absolute; top:850px; left:50px;"></gg-entry>
             </div>
             </div>
-        </li>
-
-        <li>
-            <h1>Trio of Appeals</h1>
-            <p>These are the "main" characters of GardenGrave.</p>
-            <div class='entryGroup'>
-                <gg-entry data-id="31"></gg-entry>
-                <gg-entry data-id="32"></gg-entry>
-                <gg-entry data-id="33"></gg-entry>
-                <gg-entry data-id="34"></gg-entry>
-                <gg-entry data-id="35"></gg-entry>
-            </div>
-        </li>
-    </ul>
+        </div>
 
 <!-- The Modal/Lightbox -->
 <div id = showcase>

@@ -1,0 +1,92 @@
+/* --------------------------- */
+/* - - - - - H U E S - - - - - */
+/*---------------------------- */
+
+#hues>.content {
+    display: grid;
+    grid-template-columns: auto calc(var(--screen-unit) * 8.5);
+    grid-gap: calc(var(--screen-unit) * 1);
+}
+
+#hues>.content>.description {
+    height: calc(var(--screen-unit) * 15);
+}
+
+#hues>.content>.select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: calc(var(--screen-unit) * 15);
+}
+#hues>.content>.select>.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: calc(var(--screen-unit) * 1) calc(var(--screen-unit) * 1);
+}
+
+
+/* ------------------------------------- */
+/* - - - - - S E N T I E N T S - - - - - */
+/* ------------------------------------- */
+
+#sentients { display: none; }
+#sentients>.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto calc(var(--screen-unit) * 14.25);
+    grid-gap: calc(var(--screen-unit) * 1);
+}
+#sentients>.content>h2 {
+    margin-bottom: calc(var(--screen-unit) * -.5);
+    text-align: center;
+}
+
+
+/* --------------------------------- */
+/* - - - - - V I K I N G S - - - - - */
+/* --------------------------------- */
+
+#vikings>.content {
+    display: grid;
+    grid-template-columns: calc(var(--screen-unit) * 15) auto calc(var(--screen-unit) * 2.5);
+    grid-gap: calc(var(--screen-unit) * 1);
+}
+
+#vikings>.content>.art {
+    height: calc(var(--screen-unit) * 15);
+}
+
+#vikings>.content>.description {
+    height: calc(var(--screen-unit) * 15);
+
+    width: 100%;
+}
+
+#vikings>.content>.select>.buttons {
+    flex-direction: column;
+    gap: calc(var(--screen-unit) * 1);
+
+    height: calc(var(--screen-unit) * 15);
+}
+
+#vikings>.content>.select>.buttons label>div{
+    width: calc(var(--screen-unit) * 2.5); 
+    height: calc(var(--screen-unit) * 2.5);
+
+    margin: 0 auto calc(var(--screen-unit) * .5) auto;
+    filter: drop-shadow(0px calc(var(--screen-unit) * .5) 0px #555555);
+}
+#vikings>.content>.select>.buttons label>div:hover {
+    transform: translateY(calc(var(--screen-unit) * .15));
+    filter: drop-shadow(0px calc(var(--screen-unit) * .35) 0px #555555);
+}
+#vikings>.content>.select>.buttons input[type=radio]:checked + label>div {
+    transform: translateY(calc(var(--screen-unit) * .35));
+    filter: drop-shadow(0px calc(var(--screen-unit) * .15) 0px #555555);
+}
+#vikings>.content>.select>.buttons label>div>img {
+    width: 60%;
+    height: 60%;
+}

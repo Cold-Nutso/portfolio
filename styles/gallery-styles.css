@@ -7,7 +7,7 @@
 body {
     /* Arrange the logo background */
     background-color: #111111;
-    background-image: url(../media/sms-background.svg);
+    background-image: url(../assets/sms-background.svg);
     background-repeat: repeat;
     background-size: 150px;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ img:hover { transform: scale(1.1); }
 
 #paper {
     /* Arrange the paper background */
-    background-image: url(../media/paper.jpg);
+    background-image: url(../assets/paper.jpg);
     background-size: 40%;
     background-position: center top;
     background-attachment: fixed;
@@ -50,7 +50,7 @@ img:hover { transform: scale(1.1); }
     padding: 40px;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12vw, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
 }
 /* Rounded images are slightly smaller for visual weight balance */
@@ -71,7 +71,7 @@ img:hover { transform: scale(1.1); }
     padding: 40px; /* Breaks when set to 30px? */
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(9vw, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 40px;
 }
 #small-art img:hover { 
@@ -85,4 +85,9 @@ img:hover { transform: scale(1.1); }
 /* - - - - - P I X E L - - - - - */
 /* ----------------------------- */
 
-#pixel { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+#pixel { padding: 40px;
+    /* Breaks when set to 30px? */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 40px; }

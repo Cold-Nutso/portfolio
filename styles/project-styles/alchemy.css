@@ -8,14 +8,14 @@
   .banner h3 { 
     font-family: '8-bit Alchemy'; 
     font-size: 34pt; 
-    margin-top: -1.5%; 
+    margin-top: -1.5%;
   } 
 }
 .info .alchemy { 
   font-family: '8-bit Alchemy'; 
   font-size: 30pt;
   line-height: 34pt;
-  color: var(--trim-color);
+  color: var(--hex-trim);
   word-break: break-all;
 }
 .info .alchemy:focus {

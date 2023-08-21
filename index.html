@@ -3,32 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="media/sms-logo.ico">
-    <link rel="stylesheet" href="styles/index-styles.css">
-    <link rel="stylesheet" href="styles/project-styles/project-main.css">
+    <link rel="icon" type="image/x-icon" href="./assets/sms-logo.ico">
+    <link rel="stylesheet" href="./styles/index-styles.css">
+    <link rel="stylesheet" href="./styles/project-styles/project-main.css">
     <title>Vitaly's Portfolio</title>
 
     <!-- Link scripts -->
-    <script type="module" src="src/projects/project-main.js"></script>
-    <script type="module" src="src/index.js"></script>
-    <script type="module" src="src/components/nav-bar.js"></script>
-    <script type="module" src="src/components/personal-project.js"></script>
+    <script type="module" src="./src/projects/project-main.js"></script>
+    <script type="module" src="./src/index.js"></script>
+    <script type="module" src="./src/components/nav-bar.js"></script>
+    <script type="module" src="./src/components/personal-project.js"></script>
 </head>
 
 <body>
-    <nav-bar data-tab1="About Me%#about" data-tab2="Projects%#projects" data-tab3="Art Galleries%#galleries"></nav-bar>
-    <!-- data-tab4="GardenGrave%gg-index.html" --> 
+    <nav-bar data-tab1="About Me%#about" data-tab2="Projects%#projects" data-tab3="Galleries%#galleries"></nav-bar>
 
     <div class = topic id = about>
-        <h1>Vitaly Pronin</h1>
-        <p id = subtitle></p>
-        <img id="profile" src = "media/profile-pic.png" alt = "Vitaly giving a low-energythumbs-up.">
-        <p id = age></p>
+        <h2>About Me</h2>
+        <div class='idCard'>
+            <div class=topRow>
+                <img id="profile" src="assets/profile-pic.png" alt="Vitaly giving a low-energy thumbs-up.">
+                <div class="nameTitle">
+                    <h3>Vitaly Pronin</h3>
+                    <p id=subtitle></p>
+                </div>
+
+                                            <div id="contact">
+                                                <div class="social">
+                                                    <img class='trimfilter' src="assets/discord.svg" alt="Discord icon">
+                                                    <!-- Discord icon made by Pixel perfect from www.flaticon.com -->
+                                                    <p>Cold Nutso#4345</p>
+                                                </div>
+                                            
+                                                <div class="social">
+                                                    <img class='trimfilter' src="assets/email.svg" alt="email icon">
+                                                    <!-- Email icon made by Freepik from www.flaticon.com -->
+                                                    <p>Vitaly202@gmail.com</p>
+                                                </div>
+                                            
+                                                <div class="social">
+                                                    <img class='trimfilter' src="assets/linkedin.svg" alt="LinkedIn icon">
+                                                    <!-- LinkedIn icon made by Freepik from www.flaticon.com -->
+                                                    <p><a href="https://www.linkedin.com/in/vitaly-pronin-247146199/" target="_blank">Vitaly Pronin</a></p>
+                                                </div>
+                                            
+                                                <div class="social">
+                                                    <img class='trimfilter' src="assets/phone-call.svg" alt="phone icon">
+                                                    <!-- Phone icon made by Prosymbols from www.flaticon.com -->
+                                                    <p>(585)-485-8962</p>
+                                                </div>
+                                            </div>
+            </div>
+            <div class=infoLine>
+                <p id=age></p>
+            </div>
+            <div class=infoLine>
+                <p><strong>Occupation:</strong> Full-stack web developer at <a href='https://greenactionstudio.com' target='_blank'>GAS</a></p>
+            </div>
+            <div class=infoLine>
+            <p><strong>Degree:</strong> Bachelor's of Science from <a href='https://www.rit.edu' target='_blank'>RIT</a></p>
+                <p class=subLine>&emsp;* <em>Major in <span class=trim>Game Design & Development</span></em></p>
+                <p class=subLine>&emsp;* <em>Immersion in <span class=trim>Psychology</span></em></p>
+            </div>
+        </div>
     </div>
 
     <div class = topic id = projects>
             <h2>My Projects</h2>
 
+            <personal-project data-index=5></personal-project>
             <personal-project data-index=4></personal-project>
             <personal-project data-index=3></personal-project>
             <personal-project data-index=2></personal-project>
@@ -46,7 +89,7 @@
 
                     <p>Logos, icons, and pictographs make up a significant portion of my digital art. I like my work minimal and symbolic. Shapes matter most, so ideally the piece should work even if monochromatic. I try to find the simplest form I can to represent an idea.</p>
 
-                    <a class = left href = "gallery-small.html" target = "_blank">Click here for all my small art!</a>
+                    <a class = left href = "gallery-small.html">Click here for the gallery!</a>
                 </div>
             </section>
             <section class = artbar>
@@ -55,7 +98,7 @@
 
                     <p>Sometimes I make art that's a little more visually complex than your average symbol. It's usually a character, because they're the most fun. I'm still reasonably new to digital drawing so I'm frequently changing styles and Photoshop brushes.</p>
 
-                    <a class = right href = "gallery-big.html" target = "_blank">Click here for all my big art!</a>
+                    <a class = right href = "gallery-big.html">Click here for the gallery!</a>
                 </div>
 
                 <img src = "images/big-art/blond-justice_OOD.svg" alt = "">
@@ -68,48 +111,22 @@
 
                     <p>This is the first medium I started working to improve in and it is very dear to my heart. Pixel art is a more limited format than pencil drawing, so your choices have a lot of weight to them. You can also make a crochet project out of any of these pretty easily.</p>
 
-                    <a class = left href = "gallery-pixel.html" target = "_blank">You can click this, but I haven't uploaded everything.</a>
+                    <a class = left href = "gallery-pixel.html">Click here for the gallery!</a>
                 </div>
             </section>
             <section class = artbar>
                 <div class = text>
-                    <h3 class = right>Digital Sketches</h3>
+                    <h3 class = 'right'>Digital Sketches</h3>
                     
                     <p>The majority of the art I do is drawn in a spiral notebook. Blank paper is too intimidating, so all my physical drawing has to be done on lined paper. Problem is, that doesn't scan very well so I've been trying to do more sketches on the computer.</p>
 
-                    <a class = right href = "gallery-sketch.html" target = "_blank">Click here for my digital sketches!</a>
+                    <a class = right href = "gallery-sketch.html">Click here for the gallery!</a>
                 </div>
-                    <img src = "media/camille-sketch.png" alt = "">
+                    <img src = "assets/camille-sketch.png" alt = "">
             </section>
     </div>
 
-    <footer id = contact>
-        <div class="social">                
-            <img class='trimfilter' src = "media/discord.svg" alt = "Discord icon">
-            <!-- Discord icon made by Pixel perfect from www.flaticon.com -->
-            <p>Cold Nutso#4345</p>
-        </div>
-
-        <div class="social">
-            <img class='trimfilter' src = "media/email.svg" alt = "email icon">
-            <!-- Email icon made by Freepik from www.flaticon.com --> 
-            <p>Vitaly202@gmail.com</p>
-        </div>
-
-        <div class="social">
-            <img class='trimfilter' src = "media/linkedin.svg" alt = "LinkedIn icon">
-            <!-- LinkedIn icon made by Freepik from www.flaticon.com -->
-            <p><a href = "https://www.linkedin.com/in/vitaly-pronin-247146199/">Vitaly Pronin</a></p>
-        </div>
-
-        <div class="social">
-            <img class='trimfilter' src = "media/phone-call.svg" alt = "phone icon">
-            <!-- Phone icon made by Prosymbols from www.flaticon.com -->
-            <p>(585)-485-8962</p>
-        </div>
-    </footer>
-
-    <script src = "src/basic-rules.js"></script>
+    <script src = "./src/basic-rules.js"></script>
 </body>
 
 </html>
